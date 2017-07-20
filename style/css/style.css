@@ -1,3 +1,113 @@
+* {
+  box-sizing: border-box; }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  max-width: 960px; }
+
+body {
+  font-family: arial, verdana, tahoma; }
+
+img {
+  width: 100%; }
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px; }
+
+nav ul.header_menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: center; }
+  nav ul.header_menu li {
+    border: 2px #52A747 solid;
+    margin: 8px; }
+    nav ul.header_menu li a {
+      text-decoration: none;
+      color: #000;
+      text-transform: uppercase;
+      font-size: 14px;
+      padding: 4px 8px; }
+  nav ul.header_menu li:hover {
+    cursor: pointer;
+    border-color: red; }
+
+.auth {
+  display: flex;
+  align-items: center; }
+
+.auth:before {
+  content: "";
+  display: block;
+  background-image: url(../../images/auth.png);
+  background-size: 100%;
+  width: 20px;
+  height: 20px;
+  margin: 4px 0;
+  float: left; }
+
+.main_heading {
+  text-align: center;
+  color: #063863;
+  text-transform: uppercase; }
+
+.search_form {
+  display: flex;
+  flex-direction: column; }
+  .search_form label {
+    text-align: center;
+    background-color: #52A747;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 4px 32px; }
+  .search_form input {
+    border: 0;
+    text-indent: 4px;
+    font-size: 14px;
+    padding: 8px 0; }
+
+.main_heading_news {
+  text-align: center;
+  background-color: #52A747;
+  color: #fff;
+  font-weight: lighter;
+  margin: 0; }
+
+.wrap_border {
+  border-top: 2px solid #52A747;
+  border-left: 2px solid #52A747; }
+
+.wrap_logo {
+  border-bottom: 2px solid #52A747; }
+  .wrap_logo img {
+    margin: 0 16px;
+    width: 288px; }
+
+.heading_logo {
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  bottom: -18px;
+  width: 240px;
+  margin: 8px auto;
+  color: #063863;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.news_heading_block {
+  text-align: center;
+  float: right; }
+
+.time {
+  margin: 16px;
+  display: block;
+  float: left; }
+
+.footer,
+.wrapper::after {
+  height: 50px; }
 
 /*# sourceMappingURL=style.css.map */
