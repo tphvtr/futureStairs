@@ -8,33 +8,35 @@ $main-font: arial, verdana, tahoma
 html, body
 	height: 100%
 	margin: 0
-	max-width: 960px
 body
 	font-family: $main-font
+	min-width: 320px
+header
+	margin: 0 0 64px
 img
 	width: 100%
 .wrapper
 	min-height: 100%
 	margin-bottom: -150px
 nav
-	ul.header_menu
+	li
+		border: 2px $green solid
+		margin: 8px
+		a
+			text-decoration: none
+			color: #000
+			text-transform: uppercase
+			font-size: 14px
+			padding: 4px 8px
+	li:hover
+		cursor: pointer
+		border-color: red
+.header_menu
 		list-style-type: none
 		display: flex
 		flex-direction: column
 		padding: 0
 		align-items: center
-		li
-			border: 2px $green solid
-			margin: 8px
-			a
-				text-decoration: none
-				color: #000
-				text-transform: uppercase
-				font-size: 14px
-				padding: 4px 8px
-		li:hover
-			cursor: pointer
-			border-color: red
 .auth
 	display: flex
 	align-items: center
@@ -96,14 +98,17 @@ nav
 	margin: 8px auto
 	color: $blue
 	text-transform: uppercase
-	font-weight: bold
+	font-weight: bolder
 .wrap_news::after
 	content: ''
 	display: block
 	clear: both
+.news
+	height: 84px
 .news_heading_block
 	text-align: center
 	float: right
+	margin: 0
 .time
 	margin: 16px
 	display: block
@@ -113,7 +118,20 @@ nav
 .main_heading_afisha
 	text-align: center
 marquee
-	background-color: $green
+	background-color: $green 
+	max-width: 880px
+	align-self: center
+	font-size: 24px
+	color: #fff
+	display: flex
+	align-items: center
+marquee:before
+	content: ''
+	display: block
+	border: 14px solid transparent
+	border-bottom: 14px solid #fff 
+	border-left: 14px solid #fff  
+	position: relative
 .heading_projects
 	text-align: center
 .wrap_projects
@@ -134,7 +152,8 @@ marquee
 .heading_lectors
 	text-align: center
 .heading_lectors_main
-	margin: 16px 0 64px
+	margin: 16px auto 64px
+	max-width: 420px
 .lectors
 	max-width: 320px
 	height: 460px
@@ -153,7 +172,7 @@ marquee
 	position: relative
 	bottom: 184px
 	height: 226px
-	padding: 24px 0 0
+	padding: 8px 0
 	border-radius: 0 0 5px 5px
 	border-bottom: #ccc 2px solid
 .lectors:hover .lectors_descr_more
@@ -163,6 +182,7 @@ marquee
 	background-color: rgba(#000, .7)
 	color: #fff
 	opacity: 1
+	cursor: pointer
 	transition: all .5s linear
 .lectors:hover .lectors_name
 	opacity: 0
@@ -184,11 +204,11 @@ marquee
 	display: flex 
 	flex-direction: column
 	align-items: center
-	margin: 16px 0
+	margin: 16px 64px
 	a
 		text-decoration: none
 		color: #686868
-.fb:hover
+.fb:hover a
 	color: red
 .fb:before
 	content: ''
@@ -196,6 +216,7 @@ marquee
 	background-image: url(../../images/fb.png)
 	width: 25px
 	height: 25px
+	margin-bottom: 8px
 	background-size: 100%
 .phone, .mail 
 	@extend .fb
@@ -218,3 +239,102 @@ marquee
 .wrapper:after
 	content: ''
 	display: block 
+@media (min-width: 960px)
+	.header_menu
+		flex-direction: row
+		justify-content: center
+		li
+			height: 32px
+			display: flex
+			align-items: center
+	.wrap_news
+		display: flex
+		flex-direction: column
+		padding: 16px
+		border-left: 2px solid $green
+	.news_heading_block
+		width: 304px
+		height: 55px
+	.wrap_border
+		width: 50%
+		float: right
+		border-top: 0
+		border-left: 0
+	header:after
+		content: ''
+		display: block
+		clear: both
+	.wrap_logo
+		float: left
+		width: 50%
+		bottom: 0
+		position: relative
+		height: 435px
+		display: flex
+		justify-content: flex-end
+		img
+			width: 450px
+	.search_form
+		label
+			max-width: 160px
+			padding: 8px 32px 4px
+		label:hover
+			cursor: pointer
+		input
+			border-left: 2px solid $green
+			border-top: 2px solid $green
+	.heading_logo
+		font-size: 24px
+		width: 440px
+		bottom: -24px
+	.wrap_afisha_main
+		padding: 0 0 32px
+		border-bottom: 2px #ccc solid
+		display: flex
+		align-items: flex-end
+		flex-direction: column
+	.wrap_afisha
+		display: flex
+		justify-content: flex-end
+	.main_heading_afisha
+		margin: 0 8px
+		align-self: center
+		text-transform: uppercase
+		color: $blue
+		font-weight: lighter
+	.heading_afisha
+		text-align: right
+		padding: 24px 0
+		padding-right: 32px
+		border-bottom: 2px solid $green 
+		max-width: 920px
+		text-transform: uppercase
+	.wrap_projects
+		article
+			margin: 48px 16px
+			width: calc(33.3333% - 32px)
+			float: left
+			max-width: 100%
+			height: 522px
+	.wrap_projects:after
+		content: ''
+		display: block
+		clear: both
+	.wrap_lectors
+		max-width: 960px
+		margin: 0 auto
+	.wrap_lectors:after
+		content: ''
+		display: block
+		clear: both
+	.lectors
+		float: left
+		width: calc(33.333% - 64px)
+		margin: 64px 32px
+		img
+			height: 310px
+	.lectors_name
+		height: 50px
+	.wrap_contacts
+		display: flex
+		justify-content: center
