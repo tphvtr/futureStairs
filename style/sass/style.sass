@@ -86,11 +86,12 @@ nav
 		width: 288px
 .img_wrap
 	display: flex
+	flex-direction: column
 	justify-content: center
 	align-items: center
-	align-self: center
+	align-self: flex-start
 	overflow: hidden
-	background-color: #ccc
+	// background-color: #ccc
 .heading_logo
 	background-color: #fff
 	text-align: center
@@ -121,7 +122,7 @@ nav
 	text-align: center
 marquee
 	background-color: $green 
-	max-width: 880px
+	max-width: 825px
 	align-self: center
 	font-size: 24px
 	color: #fff
@@ -136,12 +137,29 @@ marquee:before
 	position: relative
 .heading_projects
 	text-align: center
+	text-transform: uppercase
+	color: #fff
+	font-size: 24px
+	padding: 16px
+	position: relative
+	top: -180px
+.wrap_triangle
+	border-style: solid
+	border-width: 180px 1470px 0 0
+	border-color: $green transparent transparent transparent
+	position: relative
+	z-index: -1
+.wrap_triangle_lectors
+	background-color: $green
+	transform: rotate(-2deg)
+.heading_lectors
+	transform: rotate(2deg)
 .wrap_projects
-	background-color: $grey
+	// background-color: $grey
+	overflow: hidden
 	padding: 32px 0
 	article
 		background-color: #fff
-		border-bottom: 2px solid #ccc
 		margin: 48px auto
 		max-width: 320px
 		img
@@ -150,17 +168,25 @@ marquee:before
 		h5
 			text-align: center
 			font-size: 24px
+			text-transform: uppercase
+			color: $blue
 		p
 			padding: 0 16px
 .heading_lectors
 	text-align: center
+	color: #fff
+	padding: 32px
+	text-transform: uppercase
 .heading_lectors_main
 	margin: 16px auto 64px
 	max-width: 420px
+	font-size: 24px
+	color: $blue
 .lectors
 	max-width: 320px
 	height: 460px
 .wrap_lectors
+	overflow: hidden
 	p
 		text-align: center
 .strong
@@ -194,13 +220,27 @@ marquee:before
 	opacity: 0
 	transition: all linear .3s
 .wrap_partners
-	background-color: $grey
 	height: 156px
 	padding: 8px 0
+	max-width: 960px
 .heading_partners
 	text-align: center
+	text-transform: uppercase
+	font-size: 24px
+	color: $blue
 .wrap_contacts
 	padding: 32px 0 32px
+	max-width: 960px
+	margin: auto
+	transform: rotate(-2deg)
+.wrap_contacts div:nth-child(n)
+	transform: rotate(2deg)
+.wrap_contacts div:nth-child(2)
+	position: relative
+	bottom: -10px
+.wrap_contacts div:nth-child(3)
+	position: relative
+	bottom: -20px
 .fb
 	display: flex 
 	flex-direction: column
@@ -208,9 +248,9 @@ marquee:before
 	margin: 16px 64px
 	a
 		text-decoration: none
-		color: #686868
+		color: #fff
 .fb:hover a
-	color: red
+	color: $blue
 .fb:before
 	content: ''
 	display: block
@@ -228,10 +268,10 @@ marquee:before
 	@extend .fb:before
 	background-image: url(../../images/mail.png)
 .footer
-	background-color: $grey
 	color: #686868
 	padding: 32px 8px 0
-	border-top: 2px solid #ccc
+	max-width: 960px
+	margin: auto
 	p
 		margin: 4px 0
 .footer,
@@ -300,9 +340,9 @@ marquee:before
 		font-weight: lighter
 	.wrap_afisha_main
 		padding: 0 0 32px
-		border-bottom: 2px #ccc solid
+		// border-bottom: 2px #ccc solid
 		display: flex
-		align-items: flex-end
+		align-items: center
 		flex-direction: column
 	.wrap_afisha
 		display: flex
@@ -318,10 +358,10 @@ marquee:before
 		padding: 24px 0
 		padding-right: 32px
 		border-bottom: 2px solid $green 
-		max-width: 920px
 		text-transform: uppercase
+		margin-right: -68px
 	.wrap_projects_main
-		background-color: $grey
+		// background-color: $grey
 	.wrap_projects
 		margin: auto
 		max-width: 1260px
@@ -334,6 +374,25 @@ marquee:before
 				height: 84px
 	.img_wrap
 		height: 240px
+	.img_wrap_prj
+		transform: rotate(-5deg)
+		margin: 16px
+		img
+			transform: rotate(5deg)
+			width: 80%
+			height: 272px
+	.wrap_projects article:nth-child(3)
+		margin-top: 54px
+	.wrap_projects article:nth-child(4)
+		margin-top: 16px
+	.wrap_projects article:nth-child(5)
+		margin-top: -16px
+	.wrap_projects_2 article:nth-child(1)
+		margin-top: 54px
+	.wrap_projects_2 article:nth-child(2)
+		margin-top: 16px
+	.wrap_projects_2 article:nth-child(3)
+		margin-top: -16px
 	.wrap_projects:after
 		content: ''
 		display: block
@@ -349,10 +408,9 @@ marquee:before
 		float: left
 		width: calc(33.333% - 64px)
 		margin: 64px 32px
-		img
-			height: 280px
 	.lectors_name
 		height: 50px
 	.wrap_contacts
 		display: flex
 		justify-content: center
+		background-color: $green

@@ -1,0 +1,381 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"main",
+				"main_heading"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"wrap",
+				"wrap_lectors"
+			],
+			[
+				"flex",
+				"flex-end"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"fff",
+				"fff"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"heading_l",
+				"heading_logo"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"bore",
+				"border-bottom"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"bg-",
+				"background-size"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"tex-t",
+				"text-transform"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/otets/Desktop/work/miralan/stylesheets/sass/style.sass",
+			"settings":
+			{
+				"buffer_size": 20814,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 157.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/otets/Desktop/work/miralan",
+		"/C/Users/otets/Desktop/work/miralan/stylesheets",
+		"/C/Users/otets/Desktop/work/miralan/stylesheets/css",
+		"/C/Users/otets/Desktop/work/miralan/stylesheets/sass",
+		"/C/Users/otets/Desktop/work/futureStairs/style/sass"
+	],
+	"file_history":
+	[
+		"/C/Users/otets/Desktop/work/futureStairs/index.html",
+		"/C/Users/otets/Desktop/work/futureStairs/style/sass/style.sass",
+		"/C/Users/otets/Desktop/work/test/index.html",
+		"/C/Users/otets/Desktop/work/test/stylesheets/css/style.css",
+		"/C/Users/otets/Desktop/work/miralan/index.html",
+		"/C/Users/otets/Desktop/work/miralan/stylesheets/css/style.css",
+		"/C/Users/otets/Desktop/work/miralan/stylesheets/sass/style.sass",
+		"/C/Users/otets/Downloads/style.css",
+		"/C/Users/otets/Desktop/work/masterB/style/style.css",
+		"/C/Users/otets/Desktop/work/futureStairs/style/css/style.css",
+		"/C/Users/otets/Desktop/FrontEnd-I/miralan/index.html",
+		"/C/Users/otets/Desktop/work/futureStairs/js/slider.js",
+		"/C/Users/otets/Downloads/js/jssor.slider-25.2.0.min.js",
+		"/C/Users/otets/Desktop/work/masterB/index.html"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"main_bt",
+			"services",
+			"main_top",
+			"main",
+			"heading",
+			"pay",
+			"stub",
+			"stab",
+			"logo",
+			"marquee",
+			"img_wra",
+			"article",
+			"input",
+			"455px",
+			"wrap_logo",
+			"main_head",
+			"label",
+			"fb",
+			"lectors",
+			"contacts",
+			"more",
+			"wrap_",
+			"marque",
+			"heading_lec",
+			"news",
+			"clear",
+			"heading_logo",
+			"proje",
+			"wrap_",
+			"wrap_news",
+			"wrap_"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/otets/Desktop/work/miralan/stylesheets/sass/style.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20814,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20814,
+								20814
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 21215.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
