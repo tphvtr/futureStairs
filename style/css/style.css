@@ -255,7 +255,8 @@ marquee:before {
 .wrap_partners {
   height: 156px;
   padding: 8px 0;
-  max-width: 960px; }
+  max-width: 960px;
+  margin: auto; }
 
 .heading_partners {
   text-align: center;
