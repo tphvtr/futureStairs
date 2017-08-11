@@ -143,9 +143,9 @@ marquee:before
 	text-transform: uppercase
 	color: #fff
 	font-size: 24px
-	padding: 80px 0
+	padding: 16px 0
 	background-image: url(../../images/plashka_prj.png)
-	background-size: 100%
+	background-size: 100% 
 	background-repeat: no-repeat
 
 .wrap_triangle
@@ -162,6 +162,11 @@ marquee:before
 .wrap_projects
 	// background-color: $grey
 	overflow: hidden
+	a
+		text-decoration: none
+	.projects:hover
+		box-shadow: 0px 10px 14px -1px rgba(0,0,0,0.08)
+		transition: all linear .3s
 	article
 		background-color: #fff
 		margin: 48px auto
@@ -176,6 +181,7 @@ marquee:before
 			color: $blue
 		p
 			padding: 0 16px
+			color: #000
 .heading_lectors
 	text-align: center
 	color: #fff
@@ -239,6 +245,7 @@ marquee:before
 	padding: 64px 0 32px
 	width: 100%
 	margin: auto
+	background-color: $green
 .fb
 	display: flex 
 	flex-direction: column
@@ -257,6 +264,7 @@ marquee:before
 	height: 25px
 	margin-bottom: 8px
 	background-size: 100%
+	background-repeat: no-repeat
 .phone, .mail 
 	@extend .fb
 .phone:before
@@ -278,6 +286,101 @@ marquee:before
 .wrapper:after
 	content: ''
 	display: block 
+.logo
+		display: block
+		float: left
+.logo::before
+	content: ''
+	display: block
+	background-image: url(../../images/logo.png)
+	background-size: 100%
+	background-repeat: no-repeat
+	width: 150px
+	height: 110px
+.facebook_nav
+	border-radius: 50%
+	float: right
+	background-color: $green
+	text-decoration: none
+	margin: 8px
+.facebook_nav::before
+	content: 'f'
+	display: block
+	color: #fff
+	text-align: right
+	text-decoration: none
+	display: flex
+	justify-content: center
+	align-items: center
+	font-weight: bold
+	width: 32px
+	height: 32px
+	font-size: 22px
+.mail_nav
+	@extend .facebook_nav
+.mail_nav::before
+	@extend .facebook_nav::before
+	content: ''
+	background-image: url(../../images/mail.png)
+	background-size: 100%
+	background-repeat: no-repeat
+.freeH_block
+	background-image: url(../../images/freeH_Big.png)
+	background-size: cover
+	background-color: $green
+	// background-position: right
+	background-repeat: no-repeat
+	opacity: .7
+	height: 1080px
+	display: flex
+	flex-direction: column
+	position: relative
+	.second_heading
+		position: absolute
+		width: 100%
+		background-color: #1e8610
+		margin: 0
+		bottom: 0
+		display: flex
+		flex-direction: column
+		align-items: center
+		height: 320px
+		p
+			color: #fff
+			font-size: 32px
+			width: 33%
+			max-width: 720px
+.main_heading_freeH
+	color: #fff
+	font-size: 80px
+	margin: 0
+	text-transform: uppercase
+	font-weight: bolder
+	margin: 0 0 0 64px
+.main_heading_freeH_small
+	font-size: 52px
+	margin-top: 64px
+.wrap_author
+	max-width: 960px
+	margin: auto
+	position: relative
+	img
+		float: left
+		width: 350px
+		height: 350px
+		margin-right: 120px
+	span
+		color: $blue
+		position: absolute
+		bottom: 0
+		font-size: 22px
+	blockquote
+		font-style: italic
+		font-size: 22px
+.wrap_author::after
+	display: block
+	content: ''
+	clear: both
 @media (min-width: 960px)
 	.header_menu
 		flex-direction: row
@@ -416,7 +519,9 @@ marquee:before
 	.wrap_contacts
 		display: flex
 		justify-content: center
-		// background-color: $green
+		background-color: inherit
 		background-image: url(../../images/plashka.png)
 		background-size: 100%
 		background-repeat: no-repeat
+	.heading_projects
+		padding: 80px 0
