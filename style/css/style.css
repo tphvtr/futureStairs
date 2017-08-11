@@ -7,7 +7,8 @@ html, body {
 
 body {
   font-family: "Roboto", sans-serif, arial, verdana, tahoma;
-  min-width: 320px; }
+  min-width: 320px;
+  position: relative; }
 
 header {
   margin: 0 0 64px; }
@@ -160,9 +161,10 @@ marquee:before {
   text-transform: uppercase;
   color: #fff;
   font-size: 24px;
-  padding: 16px;
-  position: relative;
-  top: -180px; }
+  padding: 80px 0;
+  background-image: url(../../images/plashka_prj.png);
+  background-size: 100%;
+  background-repeat: no-repeat; }
 
 .wrap_triangle {
   border-style: solid;
@@ -432,13 +434,13 @@ marquee:before {
       width: 80%;
       height: 272px; }
 
-  .wrap_projects article:nth-child(3) {
+  .wrap_projects article:nth-child(1) {
     margin-top: 54px; }
 
-  .wrap_projects article:nth-child(4) {
+  .wrap_projects article:nth-child(2) {
     margin-top: 16px; }
 
-  .wrap_projects article:nth-child(5) {
+  .wrap_projects article:nth-child(3) {
     margin-top: -16px; }
 
   .wrap_projects_2 article:nth-child(1) {
@@ -479,6 +481,7 @@ marquee:before {
     display: flex;
     justify-content: center;
     background-image: url(../../images/plashka.png);
-    background-size: 100%; } }
+    background-size: 100%;
+    background-repeat: no-repeat; } }
 
 /*# sourceMappingURL=style.css.map */
