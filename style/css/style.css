@@ -13,6 +13,13 @@ body {
 header {
   margin: 0 0 64px; }
 
+.header_projectH {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 0; }
+
 img {
   width: 100%; }
 
@@ -27,7 +34,7 @@ nav li {
     text-decoration: none;
     color: #000;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
     padding: 4px 8px; }
 nav li:hover {
   cursor: pointer;
@@ -336,7 +343,8 @@ marquee:before {
   background-size: 100%;
   background-repeat: no-repeat;
   width: 150px;
-  height: 110px; }
+  height: 110px;
+  margin: 16px; }
 
 .facebook_nav, .mail_nav {
   border-radius: 50%;
@@ -361,9 +369,10 @@ marquee:before {
 
 .mail_nav::before {
   content: "";
-  background-image: url(../../images/mail.png);
+  background-image: url(../../images/mail_top.png);
   background-size: 100%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-color: #fff; }
 
 .freeH_block {
   background-image: url(../../images/freeH_Big.png);
@@ -384,48 +393,174 @@ marquee:before {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 320px; }
     .freeH_block .second_heading p {
       color: #fff;
-      font-size: 32px;
+      font-size: 24px;
       width: 33%;
+      min-width: 320px;
       max-width: 720px; }
 
 .main_heading_freeH {
   color: #fff;
-  font-size: 80px;
+  font-size: 50px;
   margin: 0;
   text-transform: uppercase;
   font-weight: bolder;
-  margin: 0 0 0 64px; }
+  text-align: center; }
 
 .main_heading_freeH_small {
-  font-size: 52px;
+  font-size: 32px;
   margin-top: 64px; }
 
 .wrap_author {
   max-width: 960px;
-  margin: auto;
+  margin: 0 auto 64px;
   position: relative; }
   .wrap_author img {
-    float: left;
-    width: 350px;
-    height: 350px;
-    margin-right: 120px; }
+    width: 300px;
+    height: 300px;
+    margin: 16px auto;
+    display: block; }
   .wrap_author span {
     color: #063863;
-    position: absolute;
-    bottom: 0;
-    font-size: 22px; }
+    font-size: 22px;
+    text-align: center;
+    display: block; }
   .wrap_author blockquote {
     font-style: italic;
-    font-size: 22px; }
+    font-size: 22px;
+    padding-bottom: 48px; }
 
 .wrap_author::after {
   display: block;
   content: "";
   clear: both; }
 
+.projectH_descr {
+  background-color: rgba(153, 204, 0, 0.2);
+  padding: 8px; }
+  .projectH_descr h2 {
+    text-align: center; }
+  .projectH_descr p {
+    max-width: 640px;
+    margin: auto; }
+
+.projectH_descr::before, .projectH_descr::after {
+  display: block;
+  content: "";
+  background-image: url(../../images/top_freeH.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  max-width: 960px;
+  height: 160px;
+  display: flex;
+  background-position: center;
+  margin: auto; }
+
+.projectH_descr::after {
+  background-image: url(../../images/bottom_freeH.png); }
+
+.btn_new {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 8px 16px;
+  display: block;
+  margin: 72px auto 32px;
+  text-align: center;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  background-color: #52A747;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold; }
+
+.project_goal {
+  margin: auto;
+  max-width: 960px; }
+  .project_goal h2 {
+    text-align: center;
+    color: #063863;
+    font-size: 32px; }
+
+.goals_block {
+  display: flex;
+  justify-content: center;
+  padding: 8px; }
+  .goals_block .img_wrap {
+    max-height: 75px; }
+  .goals_block img {
+    width: 70px;
+    margin-right: 15px; }
+  .goals_block p {
+    max-width: 220px;
+    margin: 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.meetings_wrap {
+  margin-bottom: 32px;
+  max-width: 960px;
+  margin: 0 auto; }
+  .meetings_wrap h2 {
+    margin-top: 64px;
+    text-align: center;
+    text-transform: uppercase; }
+  .meetings_wrap span {
+    text-align: center;
+    display: block;
+    font-style: italic;
+    margin-bottom: 32px; }
+
+.contact_person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/plashka_freeH.png);
+  background-size: 100% center;
+  background-repeat: no-repeat;
+  height: 360px; }
+  .contact_person img {
+    width: 150px;
+    height: 150px; }
+
+.contacts_prj p {
+  font-size: 18px;
+  color: #686868;
+  font-weight: bold; }
+  .contacts_prj p span {
+    font-size: 14px;
+    color: #686868;
+    font-weight: lighter; }
+  .contacts_prj p a {
+    color: #686868;
+    text-decoration: none; }
+
+@media (min-width: 640px) {
+  .meetings_wrap_blocks {
+    display: flex; }
+
+  .big_img, .wide_img {
+    margin: 0 4px; }
+
+  .big_img {
+    height: 55%; }
+
+  .wide_img {
+    height: calc( 45% - 8px); }
+
+  .contact_person {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: -60px; }
+    .contact_person img {
+      margin-right: 25px; } }
 @media (min-width: 960px) {
   .header_menu {
     flex-direction: row;
@@ -595,6 +730,44 @@ marquee:before {
     background-repeat: no-repeat; }
 
   .heading_projects {
-    padding: 80px 0; } }
+    padding: 80px 0; }
+
+  .wrap_author {
+    max-width: 960px;
+    margin: 0 auto 64px;
+    position: relative; }
+    .wrap_author img {
+      width: 300px;
+      height: 300px;
+      margin: 16px 150px 0 0;
+      display: inline-block;
+      float: left; }
+    .wrap_author span {
+      color: #063863;
+      font-size: 22px;
+      display: inline;
+      position: absolute;
+      bottom: 0; }
+    .wrap_author blockquote {
+      font-style: italic;
+      font-size: 22px;
+      padding-bottom: 48px; }
+
+  .header_projectH {
+    flex-direction: row; }
+
+  .main_heading_freeH {
+    text-align: left;
+    margin-left: 128px; }
+
+  .goals_block {
+    margin: 0 16px;
+    width: calc(50% - 32px);
+    float: left; }
+
+  .project_goal::after {
+    content: "";
+    display: block;
+    clear: both; } }
 
 /*# sourceMappingURL=style.css.map */
