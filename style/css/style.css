@@ -395,36 +395,32 @@ marquee:before {
   background-repeat: no-repeat;
   background-color: #fff; }
 
-.freeH_block {
+.freeH_img {
   background-image: url(../../images/freeH_Big.jpg);
   background-size: cover;
   background-color: #52A747;
-  background-position: center;
-  opacity: 0.9;
-  height: 700px;
+  height: 370px;
+  padding: 32px; }
+
+.second_heading {
+  width: 100%;
+  background-color: #52a747;
+  margin: 0;
   display: flex;
   flex-direction: column;
-  position: relative; }
-  .freeH_block .second_heading {
-    position: absolute;
-    width: 100%;
-    background-color: #1e8610;
-    margin: 0;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 320px; }
-    .freeH_block .second_heading p {
-      color: #fff;
-      font-size: 24px;
-      min-width: 320px;
-      max-width: 560px; }
+  align-items: center;
+  justify-content: center;
+  height: 320px; }
+  .second_heading p {
+    padding: 16px;
+    color: #fff;
+    font-size: 24px;
+    min-width: 320px;
+    max-width: 560px; }
 
 .main_heading_freeH {
   color: #fff;
-  font-size: 50px;
+  font-size: 38px;
   margin: 0;
   text-transform: uppercase;
   font-weight: bolder;
@@ -432,7 +428,7 @@ marquee:before {
   font-family: Pompadur; }
 
 .main_heading_freeH_small {
-  font-size: 32px;
+  font-size: 25px;
   margin-top: 64px; }
 
 .wrap_author {
@@ -472,7 +468,8 @@ marquee:before {
   .projectH_descr p {
     max-width: 640px;
     font-size: 22px;
-    margin: auto; }
+    margin: auto;
+    padding: 16px; }
 
 .projectH_descr::before, .projectH_descr::after {
   display: block;
@@ -520,11 +517,10 @@ marquee:before {
   display: flex;
   justify-content: flex-start;
   padding: 8px; }
-  .goals_block .img_wrap {
-    max-height: 85px;
-    margin-right: 15px; }
   .goals_block img {
-    width: 80px; }
+    width: 80px;
+    max-height: 80px;
+    margin-right: 15px; }
   .goals_block p {
     font-size: 18px;
     max-width: 320px;
@@ -549,27 +545,28 @@ marquee:before {
     margin-bottom: 32px; }
 
 .contact_person {
+  padding: 32px 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(../../images/plashka_freeH.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 360px;
+  background-color: #d4ea94;
+  height: 450px;
   width: 100%; }
   .contact_person img {
     width: 150px;
     height: 150px; }
 
 .contacts_prj p {
-  font-size: 22px;
+  font-size: 24px;
   color: #686868;
   font-weight: bold;
   margin: 0;
   text-align: center; }
   .contacts_prj p span {
-    font-size: 16px;
+    font-size: 18px;
     color: #686868;
     font-weight: lighter; }
   .contacts_prj p a {
@@ -590,6 +587,7 @@ marquee:before {
     height: calc( 45% - 8px); }
 
   .contact_person {
+    background-color: inherit;
     flex-direction: row;
     justify-content: center;
     margin-bottom: -60px; }
@@ -808,6 +806,20 @@ marquee:before {
     background-size: 100%; } }
 @media(min-width: 1280px) {
   .header_projectH {
-    flex-direction: row; } }
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    z-index: 999; }
+
+  .freeH_img {
+    position: fixed;
+    width: 100%;
+    top: 140px;
+    z-index: 999; }
+
+  .second_heading {
+    margin-top: 490px; } }
 
 /*# sourceMappingURL=style.css.map */
