@@ -8,7 +8,8 @@ html, body {
 body {
   font-family: "Roboto", sans-serif, arial, verdana, tahoma;
   min-width: 320px;
-  position: relative; }
+  position: relative;
+  maargin: 0 auto; }
 
 header {
   margin: 0 0 64px; }
@@ -29,7 +30,10 @@ img {
 
 nav li {
   border: 2px #52A747 solid;
-  margin: 8px; }
+  margin: 8px;
+  width: 150px;
+  display: flex;
+  justify-content: center; }
   nav li a {
     text-decoration: none;
     color: #000;
@@ -129,9 +133,13 @@ nav li:hover {
   height: 84px; }
 
 .news_heading_block {
-  text-align: center;
+  text-align: left;
   float: right;
-  margin: 0; }
+  margin: 0;
+  padding: 8px;
+  font-family: arial;
+  font-weight: lighter;
+  color: #3b3c38; }
 
 .time {
   margin: 16px;
@@ -139,7 +147,14 @@ nav li:hover {
   float: left; }
 
 .heading_afisha {
-  text-align: center; }
+  text-align: center;
+  max-width: 900px;
+  color: #5e5e5e; }
+
+.mission_afisha {
+  margin: 0 8px 32px 0;
+  display: block;
+  float: left; }
 
 .main_heading_afisha {
   text-align: center; }
@@ -151,9 +166,11 @@ marquee {
   font-size: 24px;
   color: #fff;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  overflow: hidden; }
   marquee span {
-    padding-right: 32px; }
+    padding-right: 32px;
+    overflow: hidden; }
 
 marquee:before {
   content: "";
@@ -170,7 +187,7 @@ marquee:before {
   font-size: 24px;
   padding: 16px 0;
   background-image: url(../../images/plashka_prj.png);
-  background-size: 100%;
+  background-size: 100% center;
   background-repeat: no-repeat; }
 
 .wrap_triangle {
@@ -217,6 +234,9 @@ marquee:before {
   text-transform: uppercase;
   width: 100%; }
 
+.centering {
+  display: flex; }
+
 .heading_lectors_main {
   margin: 64px auto 64px;
   max-width: 420px;
@@ -247,13 +267,14 @@ marquee:before {
   opacity: 0;
   position: relative;
   bottom: 184px;
-  height: 226px;
-  padding: 8px 0;
+  height: 256px;
+  padding: 8px;
   border-radius: 0 0 5px 5px;
-  border-bottom: #ccc 2px solid; }
+  border-bottom: #ccc 2px solid;
+  align-items: center; }
 
 .lectors:hover .lectors_descr_more {
-  display: block;
+  display: flex;
   position: relative;
   bottom: 326px;
   background-color: rgba(0, 0, 0, 0.7);
@@ -304,8 +325,8 @@ marquee:before {
   content: "";
   display: block;
   background-image: url(../../images/fb.png);
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   margin-bottom: 8px;
   background-size: 100%;
   background-repeat: no-repeat; }
@@ -378,9 +399,9 @@ marquee:before {
   background-image: url(../../images/freeH_Big.jpg);
   background-size: cover;
   background-color: #52A747;
-  background-repeat: no-repeat;
-  opacity: 0.7;
-  height: 1080px;
+  background-position: center;
+  opacity: 0.9;
+  height: 700px;
   display: flex;
   flex-direction: column;
   position: relative; }
@@ -398,9 +419,8 @@ marquee:before {
     .freeH_block .second_heading p {
       color: #fff;
       font-size: 24px;
-      width: 33%;
       min-width: 320px;
-      max-width: 720px; }
+      max-width: 560px; }
 
 .main_heading_freeH {
   color: #fff;
@@ -408,7 +428,8 @@ marquee:before {
   margin: 0;
   text-transform: uppercase;
   font-weight: bolder;
-  text-align: center; }
+  text-align: center;
+  font-family: Pompadur; }
 
 .main_heading_freeH_small {
   font-size: 32px;
@@ -419,8 +440,8 @@ marquee:before {
   margin: 0 auto 64px;
   position: relative; }
   .wrap_author img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin: 16px auto;
     display: block; }
   .wrap_author span {
@@ -442,10 +463,15 @@ marquee:before {
   background-color: rgba(153, 204, 0, 0.2);
   padding: 8px; }
   .projectH_descr h2 {
-    text-align: center; }
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: -18px;
+    position: relative;
+    top: -64px; }
   .projectH_descr p {
     max-width: 640px;
-    font-size: 14px;
+    font-size: 22px;
     margin: auto; }
 
 .projectH_descr::before, .projectH_descr::after {
@@ -487,18 +513,21 @@ marquee:before {
     color: #063863;
     font-size: 32px; }
 
+.img_map {
+  height: 75px; }
+
 .goals_block {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 8px; }
   .goals_block .img_wrap {
-    max-height: 75px; }
-  .goals_block img {
-    width: 70px;
+    max-height: 85px;
     margin-right: 15px; }
+  .goals_block img {
+    width: 80px; }
   .goals_block p {
-    font-size: 14px;
-    max-width: 220px;
+    font-size: 18px;
+    max-width: 320px;
     margin: 0;
     height: 80px;
     display: flex;
@@ -525,19 +554,22 @@ marquee:before {
   justify-content: center;
   align-items: center;
   background-image: url(../../images/plashka_freeH.png);
-  background-size: 100% center;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 360px; }
+  height: 360px;
+  width: 100%; }
   .contact_person img {
     width: 150px;
     height: 150px; }
 
 .contacts_prj p {
-  font-size: 18px;
+  font-size: 22px;
   color: #686868;
-  font-weight: bold; }
+  font-weight: bold;
+  margin: 0;
+  text-align: center; }
   .contacts_prj p span {
-    font-size: 14px;
+    font-size: 16px;
     color: #686868;
     font-weight: lighter; }
   .contacts_prj p a {
@@ -579,8 +611,7 @@ marquee:before {
     border-left: 2px solid #52A747; }
 
   .news_heading_block {
-    width: 304px;
-    height: 55px; }
+    max-width: 640px; }
 
   .wrap_border {
     width: 50%;
@@ -634,8 +665,9 @@ marquee:before {
   .wrap_afisha_main {
     padding: 0 0 32px;
     display: flex;
-    align-items: center;
-    flex-direction: column; }
+    align-items: flex-end;
+    flex-direction: column;
+    overflow: hidden; }
 
   .wrap_afisha {
     display: flex;
@@ -649,12 +681,12 @@ marquee:before {
     font-weight: lighter; }
 
   .heading_afisha {
-    text-align: right;
+    text-align: left;
     padding: 24px 0;
-    padding-right: 32px;
     border-bottom: 2px solid #52A747;
     text-transform: uppercase;
-    margin-right: -68px; }
+    margin-right: -68px;
+    float: left; }
 
   .wrap_projects {
     margin: 32px auto 0;
@@ -728,8 +760,7 @@ marquee:before {
     justify-content: center;
     background-color: inherit;
     background-image: url(../../images/plashka.png);
-    background-size: 100%;
-    background-repeat: no-repeat; }
+    background-size: 100%; }
 
   .heading_projects {
     padding: 80px 0; }
@@ -741,7 +772,7 @@ marquee:before {
     .wrap_author img {
       width: 300px;
       height: 300px;
-      margin: 16px 150px 0 0;
+      margin: 16px 75px 0 0;
       display: inline-block;
       float: left; }
     .wrap_author span {
@@ -755,12 +786,13 @@ marquee:before {
       font-size: 22px;
       padding-bottom: 48px; }
 
-  .header_projectH {
-    flex-direction: row; }
-
   .main_heading_freeH {
     text-align: left;
-    margin-left: 128px; }
+    margin-left: 128px;
+    font-size: 64px; }
+
+  .main_heading_freeH_small {
+    font-size: 52px; }
 
   .goals_block {
     margin: 0 16px;
@@ -770,6 +802,12 @@ marquee:before {
   .project_goal::after {
     content: "";
     display: block;
-    clear: both; } }
+    clear: both; }
+
+  .heading_projects {
+    background-size: 100%; } }
+@media(min-width: 1280px) {
+  .header_projectH {
+    flex-direction: row; } }
 
 /*# sourceMappingURL=style.css.map */
