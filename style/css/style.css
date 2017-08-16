@@ -445,6 +445,7 @@ marquee:before {
     text-align: center; }
   .projectH_descr p {
     max-width: 640px;
+    font-size: 14px;
     margin: auto; }
 
 .projectH_descr::before, .projectH_descr::after {
@@ -496,6 +497,7 @@ marquee:before {
     width: 70px;
     margin-right: 15px; }
   .goals_block p {
+    font-size: 14px;
     max-width: 220px;
     margin: 0;
     height: 80px;
