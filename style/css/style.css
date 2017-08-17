@@ -9,7 +9,8 @@ body {
   font-family: "Roboto", sans-serif, arial, verdana, tahoma;
   min-width: 320px;
   position: relative;
-  maargin: 0 auto; }
+  maargin: 0 auto;
+  background-color: #fff; }
 
 header {
   margin: 0 0 64px; }
@@ -26,7 +27,9 @@ img {
 
 .wrapper {
   min-height: 100%;
-  margin-bottom: -150px; }
+  margin-bottom: -150px;
+  position: relative;
+  background-color: #fff; }
 
 nav li {
   border: 2px #52A747 solid;
@@ -434,7 +437,8 @@ marquee:before {
 .wrap_author {
   max-width: 960px;
   margin: 0 auto 64px;
-  position: relative; }
+  position: relative;
+  background-color: #fff; }
   .wrap_author img {
     width: 250px;
     height: 250px;
@@ -590,6 +594,7 @@ marquee:before {
     background-color: inherit;
     flex-direction: row;
     justify-content: center;
+    background-image: url(../../images/plashka_freeH.png);
     margin-bottom: -60px; }
     .contact_person img {
       margin-right: 25px; } }
@@ -814,6 +819,13 @@ marquee:before {
     z-index: 999; }
 
   .freeH_img {
-    margin-top: 152px; } }
+    top: 142px;
+    position: fixed;
+    width: 100%;
+    z-index: -1; }
+
+  .second_heading {
+    position: relative;
+    margin-top: 500px; } }
 
 /*# sourceMappingURL=style.css.map */
