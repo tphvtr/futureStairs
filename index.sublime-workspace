@@ -4,6 +4,198 @@
 		"selected_items":
 		[
 			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"ta",
+				"tariffs_text"
+			],
+			[
+				"nth",
+				"nth-child"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"bg-",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"flex-",
+				"flex-direction"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"open",
+				"open_modal_1"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"align",
+				"align-self"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"main",
+				"main_heading_freeH_small"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"bol",
+				"border-left"
+			],
+			[
+				"free",
+				"freeH_block"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"fi",
+				"finance_ul"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"a",
+				"azarkhina"
+			],
+			[
+				"mail",
+				"mailto"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"header",
+				"header_projectH"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"backgr-",
+				"background-image"
+			],
+			[
+				"rgb",
+				"rgba\trgba()"
+			],
+			[
+				"project",
+				"projectH_descr"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"feat",
+				"features_wrap"
+			],
+			[
+				"ali",
+				"align-self"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"features",
+				"features_block"
+			],
+			[
+				"fea",
+				"features_block"
+			],
+			[
+				"num",
+				"num_marker_1"
+			],
+			[
+				"padi",
+				"padding-top"
+			],
+			[
 				"form",
 				"form_heading"
 			],
@@ -20,56 +212,16 @@
 				"class\tAttr"
 			],
 			[
-				"tran",
-				"transition"
-			],
-			[
 				"pso",
 				"position"
-			],
-			[
-				"flex",
-				"flex-start"
-			],
-			[
-				"align",
-				"align-self"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"margin",
-				"margin"
 			],
 			[
 				"opac",
 				"opacity\topacity()"
 			],
 			[
-				"bg-",
-				"background-repeat"
-			],
-			[
 				"font-",
 				"font-weight"
-			],
-			[
-				"text",
-				"text-decoration"
-			],
-			[
-				"no",
-				"no-repeat"
-			],
-			[
-				"trans",
-				"transition"
-			],
-			[
-				"text-",
-				"text-decoration"
 			],
 			[
 				"z",
@@ -78,18 +230,6 @@
 			[
 				"ligh",
 				"lighter"
-			],
-			[
-				"margi",
-				"margin-top"
-			],
-			[
-				"header",
-				"heading_lectors"
-			],
-			[
-				"marg",
-				"margin-right"
 			],
 			[
 				"wrap",
@@ -104,14 +244,6 @@
 				"transform"
 			],
 			[
-				"main",
-				"main_heading"
-			],
-			[
-				"pad",
-				"padding"
-			],
-			[
 				"cur",
 				"cursor"
 			],
@@ -124,10 +256,6 @@
 				"fff"
 			],
 			[
-				"mar",
-				"margin"
-			],
-			[
 				"heading_l",
 				"heading_logo"
 			],
@@ -136,16 +264,8 @@
 				"border-top"
 			],
 			[
-				"alig",
-				"align-items"
-			],
-			[
 				"bore",
 				"border-bottom"
-			],
-			[
-				"ali",
-				"align-items"
 			],
 			[
 				"pos",
@@ -176,19 +296,19 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/otets/Desktop/work/masterB/clients.html",
+			"file": "/C/Users/otets/Desktop/work/masterB/index.html",
 			"settings":
 			{
-				"buffer_size": 4415,
+				"buffer_size": 23560,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/otets/Desktop/work/masterB/index.html",
+			"file": "/C/Users/otets/Desktop/work/masterB/clients.html",
 			"settings":
 			{
-				"buffer_size": 10236,
+				"buffer_size": 4318,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -197,16 +317,7 @@
 			"file": "/C/Users/otets/Desktop/work/masterB/features.html",
 			"settings":
 			{
-				"buffer_size": 3981,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/otets/Desktop/work/masterB/updates.html",
-			"settings":
-			{
-				"buffer_size": 4199,
+				"buffer_size": 9524,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -215,7 +326,7 @@
 			"file": "/C/Users/otets/Desktop/work/masterB/style/style.css",
 			"settings":
 			{
-				"buffer_size": 19812,
+				"buffer_size": 26849,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -258,29 +369,29 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/otets/Desktop/work/miralan/stylesheets/css",
-		"/C/Users/otets/Desktop/work/miralan/stylesheets/sass",
-		"/C/Users/otets/Desktop/work/futureStairs",
-		"/C/Users/otets/Desktop/work/futureStairs/js",
-		"/C/Users/otets/Desktop/work/futureStairs/style",
-		"/C/Users/otets/Desktop/work/futureStairs/style/sass",
 		"/C/Users/otets/Desktop/work/masterB",
+		"/C/Users/otets/Desktop/work/masterB/images",
+		"/C/Users/otets/Desktop/work/masterB/js",
 		"/C/Users/otets/Desktop/work/masterB/style"
 	],
 	"file_history":
 	[
-		"/C/Users/otets/Desktop/work/futureStairs/js/jQuery.js",
-		"/C/Users/otets/Desktop/work/miralan/stylesheets/css/style.css",
-		"/C/Users/otets/Desktop/work/masterB/index.html",
 		"/C/Users/otets/Desktop/work/futureStairs/style/sass/style.sass",
 		"/C/Users/otets/Desktop/work/futureStairs/project_freeH.html",
+		"/C/Users/otets/Desktop/work/masterB/index.html",
+		"/C/Users/otets/Desktop/work/masterB/style/style.css",
+		"/C/Users/otets/Desktop/work/masterB/js/jQuery.js",
 		"/C/Users/otets/Desktop/work/futureStairs/index.html",
+		"/C/Users/otets/Desktop/work/masterB/clients.html",
+		"/C/Users/otets/Desktop/work/masterB/features.html",
+		"/C/Users/otets/Desktop/work/masterB/updates.html",
+		"/C/Users/otets/Desktop/work/futureStairs/js/jQuery.js",
+		"/C/Users/otets/Desktop/work/miralan/stylesheets/css/style.css",
 		"/C/Users/otets/Desktop/work/miralan/stylesheets/sass/style.sass",
 		"/C/Users/otets/Desktop/work/test/index.html",
 		"/C/Users/otets/Desktop/work/test/stylesheets/css/style.css",
 		"/C/Users/otets/Desktop/work/miralan/index.html",
 		"/C/Users/otets/Downloads/style.css",
-		"/C/Users/otets/Desktop/work/masterB/style/style.css",
 		"/C/Users/otets/Desktop/work/futureStairs/style/css/style.css",
 		"/C/Users/otets/Desktop/FrontEnd-I/miralan/index.html",
 		"/C/Users/otets/Desktop/work/futureStairs/js/slider.js",
@@ -302,90 +413,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mail::",
+			"mail:before",
+			"mail:",
+			"cost",
+			"182px",
+			"tariffs_wra",
+			"tariffs",
+			"cost",
+			"wrap_a",
+			"Name",
+			"goals",
+			"project",
+			"project_goal",
+			"projectH_Descr",
+			"brown",
+			"projec",
+			"projectH_des",
+			"contact_p",
+			"main_heading_freeH",
+			"project_g",
+			"goals",
+			"project_goal",
+			"project_gola",
+			"proje",
+			"wrap_aut",
+			"freeH_img",
+			"wrapper",
+			"freeH_img",
+			"freeH",
+			"contact_p",
+			"contact_pers",
+			"contact_",
+			"wrap_contacts",
+			"contact_pe",
+			"wrap_contact",
+			"contacts",
+			"contact_p",
+			"contacts_p",
+			"contact",
+			"contacts",
+			"contact_",
+			"contact_pers",
+			"footer",
+			"contact_",
+			"plashka",
+			"640px",
+			"contact",
+			"contact_wr",
+			"mail",
+			"contact",
+			".",
+			"freeH_img",
+			"contact_",
+			"wrap_contacts",
+			"contact_pers",
+			"header_pr",
+			"freeH",
+			"contact",
+			"contacts",
+			"footer",
+			"projectH",
+			"860px",
+			"header_menu",
+			"wrap_auth",
+			"main_heading_freeH",
+			"150px",
+			"header_menu",
+			"heading_afisha",
+			"heading_afish",
+			"heading_pro",
+			"news_head",
+			"heading_afisha",
+			"finance_wrap",
+			".logo",
+			".contact",
+			"know_more_btn",
+			"know",
+			"question",
+			"features_",
+			"features",
+			".finance_ul li:nth-child(7):before",
+			"media",
+			"features_block",
+			"img_Wra",
+			"blue",
+			"img_wrap",
+			"rgba",
+			"big_img",
+			"wide_img",
+			"freeh",
+			"projectH",
+			"Name",
+			"name",
+			"freeH",
+			"width: 960",
+			"projectH",
+			"perojectH",
+			"show",
+			"show_btn",
+			"quest",
+			"red",
+			"main_btn",
+			"border",
+			"border-top",
+			"footer",
+			"особли",
+			"textarea",
+			"country_choo",
+			"країна",
+			"особливості",
+			"features_bl",
+			"MAIN",
+			"more_btn",
+			"main",
+			"features_blo",
+			"demo",
+			".functional_ol li:before {\n    content: '';\n    border-radius: 50%;\n    display: block;\n    background-color: red;\n    width: 25px;\n    height: 25px;\n    margin-right: 15px;\n  \tfont-size: 14px;\n  \tcolor: #fff;\n    float: left;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}",
+			"before",
+			"li",
+			"num_mark",
+			"num",
+			"features",
+			"country_choose_wrap",
+			"coun",
 			"pompa",
 			"country_choose",
 			"30",
-			"modal_cl",
-			"country",
-			"country choose",
-			"open_modal_1",
-			"open_modal",
-			"MAIN",
-			"main_btn",
-			"modal1",
-			"modal",
-			"contacts",
-			"heading_pro",
-			"wrap_conta",
-			"wrap_contatc",
-			"article",
-			"img",
-			"wrap_co",
-			"heading_lectors_",
-			"heading_lecto",
-			"wrap_lectors",
-			"lectors",
-			"article",
-			"artilc",
-			"wrap_pro",
-			"heading_afisha",
-			"wrap_lectors",
-			"wrap_lectir",
-			"marquee",
-			"wrap_projects",
-			"heading_lec",
-			"lectors_head",
-			"projects",
-			"nth",
-			"wrap_triangle",
-			"wrap_lectors",
-			"marq",
-			"heading_afisha",
-			"heading_lectors",
-			"heading",
-			"wrap_proj",
-			"img_wrap_prj",
-			"lectors",
-			"90",
-			"90le",
-			"img_wrap",
-			"article",
-			"projects",
-			"grey",
-			"wrap_pro",
-			"TV",
-			"tv",
-			"main_bt",
-			"services",
-			"main_top",
-			"main",
-			"heading",
-			"pay",
-			"stub",
-			"stab",
-			"logo",
-			"marquee",
-			"img_wra",
-			"article",
-			"input",
-			"455px",
-			"wrap_logo",
-			"main_head",
-			"label",
-			"fb",
-			"lectors",
-			"contacts",
-			"more",
-			"wrap_",
-			"marque",
-			"heading_lec",
-			"news",
-			"clear",
-			"heading_logo",
-			"proje",
-			"wrap_",
-			"wrap_news",
-			"wrap_"
+			"modal_cl"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -403,24 +558,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/otets/Desktop/work/masterB/clients.html",
+					"file": "/C/Users/otets/Desktop/work/masterB/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4415,
+						"buffer_size": 23560,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4399,
-								4399
+								6147,
+								6147
 							]
 						],
 						"settings":
@@ -429,27 +584,56 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1991.0,
+						"translation.y": 2699.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/otets/Desktop/work/masterB/index.html",
+					"file": "/C/Users/otets/Desktop/work/masterB/clients.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10236,
+						"buffer_size": 4318,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								547,
-								547
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 915.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/otets/Desktop/work/masterB/features.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8512,
+								8512
 							]
 						],
 						"settings":
@@ -459,64 +643,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/otets/Desktop/work/masterB/features.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3981,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3965,
-								3965
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1935.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/otets/Desktop/work/masterB/updates.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4199,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4183,
-								4183
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1518.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -529,29 +655,28 @@
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "/C/Users/otets/Desktop/work/masterB/style/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19812,
+						"buffer_size": 26849,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2218,
-								2223
+								2144,
+								2144
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2420.0,
+						"translation.y": 2027.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -562,7 +687,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -606,7 +731,7 @@
 	"project": "index.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -617,7 +742,7 @@
 		[
 			[
 				"",
-				"untitled"
+				"futureStairs\\style\\sass\\style.sass"
 			]
 		],
 		"width": 0.0
@@ -640,7 +765,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

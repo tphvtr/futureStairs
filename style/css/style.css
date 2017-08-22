@@ -192,7 +192,8 @@ marquee:before {
   font-size: 24px;
   padding: 16px 0;
   background-image: url(../../images/plashka_prj.png);
-  background-size: 100% center;
+  background-size: contain;
+  background-position: left;
   background-repeat: no-repeat; }
 
 .wrap_triangle {
@@ -346,7 +347,6 @@ marquee:before {
 .footer {
   color: #686868;
   padding: 32px 8px 0;
-  max-width: 960px;
   margin: auto;
   position: relative;
   z-index: 1; }
@@ -610,6 +610,29 @@ marquee:before {
 .paralaxM_wrap {
   padding-bottom: 64px; }
 
+.canvas_1, .canvas_2, .canvas_3, .canvas_4 {
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.canvas_1 {
+  background-image: url(../../images/big_img.png); }
+
+.canvas_2 {
+  background-image: url(../../images/normal_img.png); }
+
+.canvas_3 {
+  background-image: url(../../images/wide_img.png); }
+
+.canvas_4 {
+  background-image: url(../../images/big_img.png); }
+
+.wrap_zahodi {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px; }
+
 @media (min-width: 640px) {
   .projectH_descr {
     height: 100%; }
@@ -739,7 +762,7 @@ marquee:before {
 
   .wrap_projects {
     margin: 32px auto 0;
-    max-width: 1260px; }
+    max-width: 1180px; }
     .wrap_projects article {
       margin: 8px 16px;
       width: calc(33.3333% - 32px);
@@ -785,11 +808,11 @@ marquee:before {
     clear: both; }
 
   .wrap_lectors {
-    max-width: 960px;
-    margin: 0 auto 0; }
+    margin: 0 auto;
+    max-width: 1176px; }
 
   .wrap_lectors_main {
-    margin: 0 auto 0; }
+    margin: auto; }
 
   .wrap_lectors:after {
     content: "";
