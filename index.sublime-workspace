@@ -4,32 +4,112 @@
 		"selected_items":
 		[
 			[
-				"text-",
-				"text-transform"
-			],
-			[
-				"font-s",
-				"font-size"
-			],
-			[
 				"ta",
-				"tariffs_text"
-			],
-			[
-				"nth",
-				"nth-child"
+				"table-cell"
 			],
 			[
 				"margin",
 				"margin-bottom"
 			],
 			[
+				"text-",
+				"text-decoration"
+			],
+			[
 				"margi",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"mar",
 				"margin-top"
 			],
 			[
 				"pad",
-				"padding-top"
+				"padding"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"bol",
+				"bolder"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"padi",
+				"padding-left"
+			],
+			[
+				"bg",
+				"background-position"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ca",
+				"canvas_4"
+			],
+			[
+				"bg-",
+				"background-image"
+			],
+			[
+				"canvs",
+				"canvas_2"
+			],
+			[
+				"cana",
+				"canvas_1"
+			],
+			[
+				"stroke",
+				"strokeStyle"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"nth",
+				"nth-child"
 			],
 			[
 				"paddi",
@@ -38,14 +118,6 @@
 			[
 				"tran",
 				"transparent"
-			],
-			[
-				"bg-",
-				"background-color"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"flex-",
@@ -68,10 +140,6 @@
 				"bottom"
 			],
 			[
-				"marg",
-				"margin-top"
-			],
-			[
 				"open",
 				"open_modal_1"
 			],
@@ -80,28 +148,12 @@
 				"align-items"
 			],
 			[
-				"align",
-				"align-self"
-			],
-			[
-				"mar",
-				"margin-top"
-			],
-			[
 				"flex",
 				"flex-direction"
 			],
 			[
 				"main",
 				"main_heading_freeH_small"
-			],
-			[
-				"font",
-				"font-family"
-			],
-			[
-				"bol",
-				"border-left"
 			],
 			[
 				"free",
@@ -118,10 +170,6 @@
 			[
 				"spa",
 				"space-between"
-			],
-			[
-				"text",
-				"text-transform"
 			],
 			[
 				"no",
@@ -192,10 +240,6 @@
 				"num_marker_1"
 			],
 			[
-				"padi",
-				"padding-top"
-			],
-			[
 				"form",
 				"form_heading"
 			],
@@ -208,20 +252,12 @@
 				"showHide"
 			],
 			[
-				"ca",
-				"class\tAttr"
-			],
-			[
 				"pso",
 				"position"
 			],
 			[
 				"opac",
 				"opacity\topacity()"
-			],
-			[
-				"font-",
-				"font-weight"
 			],
 			[
 				"z",
@@ -280,10 +316,6 @@
 				"center"
 			],
 			[
-				"col",
-				"column"
-			],
-			[
 				"tex-t",
 				"text-transform"
 			],
@@ -296,39 +328,30 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/otets/Desktop/work/masterB/index.html",
+			"file": "/C/Users/otets/Desktop/work/masterB_mail/meet.html",
 			"settings":
 			{
-				"buffer_size": 23560,
+				"buffer_size": 10205,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/otets/Desktop/work/masterB/clients.html",
+			"file": "/C/Users/otets/Desktop/work/masterB_mail/index.html",
 			"settings":
 			{
-				"buffer_size": 4318,
+				"buffer_size": 4115,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/otets/Desktop/work/masterB/features.html",
+			"file": "/C/Users/otets/Desktop/work/masterB_mail/remind.html",
 			"settings":
 			{
-				"buffer_size": 9524,
+				"buffer_size": 4326,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/otets/Desktop/work/masterB/style/style.css",
-			"settings":
-			{
-				"buffer_size": 26849,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -369,21 +392,22 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/otets/Desktop/work/masterB",
-		"/C/Users/otets/Desktop/work/masterB/images",
-		"/C/Users/otets/Desktop/work/masterB/js",
-		"/C/Users/otets/Desktop/work/masterB/style"
+		"/C/Users/otets/Desktop/work/masterB_mail"
 	],
 	"file_history":
 	[
-		"/C/Users/otets/Desktop/work/futureStairs/style/sass/style.sass",
-		"/C/Users/otets/Desktop/work/futureStairs/project_freeH.html",
+		"/C/Users/otets/Desktop/work/masterB_mail/meet.html",
+		"/C/Users/otets/Desktop/work/masterB_mail/index.html",
 		"/C/Users/otets/Desktop/work/masterB/index.html",
 		"/C/Users/otets/Desktop/work/masterB/style/style.css",
-		"/C/Users/otets/Desktop/work/masterB/js/jQuery.js",
+		"/C/Users/otets/Desktop/work/masterB_mail/mail.html",
+		"/C/Users/otets/Desktop/work/futureStairs/style/sass/style.sass",
 		"/C/Users/otets/Desktop/work/futureStairs/index.html",
-		"/C/Users/otets/Desktop/work/masterB/clients.html",
+		"/C/Users/otets/Desktop/work/futureStairs/project_freeH.html",
+		"/C/Users/otets/Desktop/work/futureStairs/js/canvas.js",
 		"/C/Users/otets/Desktop/work/masterB/features.html",
+		"/C/Users/otets/Desktop/work/masterB/clients.html",
+		"/C/Users/otets/Desktop/work/masterB/js/jQuery.js",
 		"/C/Users/otets/Desktop/work/masterB/updates.html",
 		"/C/Users/otets/Desktop/work/futureStairs/js/jQuery.js",
 		"/C/Users/otets/Desktop/work/miralan/stylesheets/css/style.css",
@@ -413,6 +437,49 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"width: 440",
+			"440",
+			"проету",
+			"проек",
+			"<tr>\n<td border=\"0\" style=\"border:none; font-family: 'Roboto', arial; background-color: #ece5e5;\">\n\t<p style=\"float: right; padding-right: 76px; font-size: 18px;\">\n\t\tВебінар, 17 серпня, 18.00\n\t</p>\n</td>\n</tr>",
+			"font-family",
+			"font-fa",
+			"font-style",
+			"arial",
+			"folder",
+			"finance",
+			"finance3",
+			"tariffs",
+			"tarrifs",
+			"small",
+			"article",
+			"cost",
+			"width",
+			"max",
+			"prj_goal",
+			"heading_afi",
+			"heading_af",
+			"wrap_c",
+			"contact",
+			"time",
+			"footer",
+			"wrap_proje",
+			"wrap_lectors",
+			"lectors",
+			"wrap_lect",
+			"wrap_projects",
+			"mail",
+			"h5",
+			"features_block",
+			"num_marker",
+			"functional_head",
+			"header",
+			"cost",
+			"num_mar",
+			"num_marker",
+			"functional_he",
+			"header_cli",
+			"functional_heading",
 			"mail::",
 			"mail:before",
 			"mail:",
@@ -497,50 +564,7 @@
 			"media",
 			"features_block",
 			"img_Wra",
-			"blue",
-			"img_wrap",
-			"rgba",
-			"big_img",
-			"wide_img",
-			"freeh",
-			"projectH",
-			"Name",
-			"name",
-			"freeH",
-			"width: 960",
-			"projectH",
-			"perojectH",
-			"show",
-			"show_btn",
-			"quest",
-			"red",
-			"main_btn",
-			"border",
-			"border-top",
-			"footer",
-			"особли",
-			"textarea",
-			"country_choo",
-			"країна",
-			"особливості",
-			"features_bl",
-			"MAIN",
-			"more_btn",
-			"main",
-			"features_blo",
-			"demo",
-			".functional_ol li:before {\n    content: '';\n    border-radius: 50%;\n    display: block;\n    background-color: red;\n    width: 25px;\n    height: 25px;\n    margin-right: 15px;\n  \tfont-size: 14px;\n  \tcolor: #fff;\n    float: left;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}",
-			"before",
-			"li",
-			"num_mark",
-			"num",
-			"features",
-			"country_choose_wrap",
-			"coun",
-			"pompa",
-			"country_choose",
-			"30",
-			"modal_cl"
+			"blue"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -552,51 +576,22 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/otets/Desktop/work/masterB/index.html",
+					"file": "/C/Users/otets/Desktop/work/masterB_mail/meet.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 23560,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6147,
-								6147
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2699.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/otets/Desktop/work/masterB/clients.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4318,
+						"buffer_size": 10205,
 						"regions":
 						{
 						},
@@ -604,7 +599,7 @@
 						[
 							[
 								0,
-								0
+								10205
 							]
 						],
 						"settings":
@@ -613,27 +608,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 915.0,
+						"translation.y": 329.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/C/Users/otets/Desktop/work/masterB/features.html",
+					"buffer": 1,
+					"file": "/C/Users/otets/Desktop/work/masterB_mail/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9524,
+						"buffer_size": 4115,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8512,
-								8512
+								0,
+								4115
 							]
 						],
 						"settings":
@@ -645,43 +640,43 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 3,
-					"file": "/C/Users/otets/Desktop/work/masterB/style/style.css",
+					"buffer": 2,
+					"file": "/C/Users/otets/Desktop/work/masterB_mail/remind.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 26849,
+						"buffer_size": 4326,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2144,
-								2144
+								0,
+								4326
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2027.0,
+						"translation.y": 937.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -742,7 +737,7 @@
 		[
 			[
 				"",
-				"futureStairs\\style\\sass\\style.sass"
+				"masterB_mail\\index.html"
 			]
 		],
 		"width": 0.0
@@ -765,7 +760,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

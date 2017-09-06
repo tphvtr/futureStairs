@@ -405,15 +405,30 @@ marquee:before {
   background-repeat: no-repeat;
   background-color: #fff; }
 
-.freeH_img {
+.freeH_img, .HtoH_img, .workS_img {
   background-image: url(../../images/freeH_Big.jpg);
   background-size: cover;
   height: 370px; }
 
-.green_block {
+.green_block, .blue_block, .workS_blue_block {
   background-color: rgba(82, 167, 71, 0.52);
   height: 380px;
   position: relative; }
+
+.blue_block {
+  background-color: rgba(13, 150, 180, 0.52); }
+
+.workS_blue_block {
+  background-color: rgba(7, 57, 100, 0.52); }
+
+.HtoH_img {
+  background-image: url(../../images/Human_helps.png);
+  background-repeat: no-repeat; }
+
+.workS_img {
+  background-image: url(../../images/work_search_Main.png);
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .second_heading {
   width: 100%;
@@ -469,7 +484,7 @@ marquee:before {
   content: "";
   clear: both; }
 
-.brown_block {
+.brown_block, .blue_block_meta, .workS_goal_block {
   position: absolute;
   top: 0;
   width: 100%;
@@ -477,17 +492,25 @@ marquee:before {
   background-color: rgba(227, 241, 184, 0.52);
   height: 416px; }
 
-.projectH_descr {
+.blue_block_meta {
+  background-color: rgba(209, 243, 245, 0.52);
+  height: 448px; }
+
+.workS_goal_block {
+  background-color: rgba(194, 209, 221, 0.52);
+  height: 392px; }
+
+.projectH_descr, .projectHtoH_descr, .projectworkS_descr {
   background-color: #e3f1b8;
   position: relative;
   height: 516px; }
-  .projectH_descr h2 {
+  .projectH_descr h2, .projectHtoH_descr h2, .projectworkS_descr h2 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
     position: relative;
     bottom: -32px; }
-  .projectH_descr p {
+  .projectH_descr p, .projectHtoH_descr p, .projectworkS_descr p {
     max-width: 640px;
     font-size: 22px;
     margin: auto;
@@ -495,7 +518,7 @@ marquee:before {
     bottom: -64px;
     position: relative; }
 
-.projectH_descr::before, .projectH_descr::after {
+.projectH_descr::before, .projectH_descr::after, .projectHtoH_descr::after, .projectworkS_descr::after, .projectHtoH_descr::before, .projectworkS_descr::before {
   display: block;
   content: "";
   background-image: url(../../images/top_freeH.png);
@@ -511,9 +534,39 @@ marquee:before {
   margin-bottom: 64px;
   z-index: 1; }
 
-.projectH_descr::after {
+.projectH_descr::after, .projectHtoH_descr::after, .projectworkS_descr::after {
   background-image: url(../../images/bottom_freeH.png);
   margin-bottom: 0; }
+
+.projectHtoH_descr {
+  background-color: #d1f5f5; }
+
+.projectHtoH_descr::before {
+  background-image: url(../../images/HtoH_meta.png); }
+
+.projectHtoH_descr::after {
+  background-image: url(../../images/HtoH_meta_bot.png);
+  padding-bottom: 32px; }
+
+.projectworkS_descr {
+  background-color: #c2d1dd;
+  height: 426px; }
+  .projectworkS_descr h2 {
+    bottom: -96px; }
+  .projectworkS_descr p {
+    bottom: -128px; }
+
+.projectworkS_descr::before {
+  background-image: url(../../images/workS_plashka_top.png);
+  background-size: 80%;
+  padding-top: 56px; }
+
+.projectworkS_descr::after {
+  background-image: url(../../images/workS_plashka_bot.png);
+  background-size: 80%;
+  padding-bottom: 16px;
+  padding-top: -72px;
+  height: 80px; }
 
 .btn_new {
   text-transform: uppercase;
@@ -531,6 +584,12 @@ marquee:before {
   align-items: center;
   font-weight: bold; }
 
+.blue_color {
+  background-color: #0d96b4; }
+
+.workS_blue_color {
+  background-color: #073964; }
+
 .project_goal {
   margin: auto;
   max-width: 960px; }
@@ -544,6 +603,7 @@ marquee:before {
 .goals_block {
   display: flex;
   justify-content: flex-start;
+  margin: 32px 0;
   padding: 8px; }
   .goals_block p {
     font-size: 18px;
@@ -563,6 +623,11 @@ marquee:before {
 .map_img, .pair_img {
   width: 95px;
   height: 75px; }
+
+.hipster_img {
+  width: 62px;
+  height: 73px;
+  margin-left: 32px; }
 
 .meetings_wrap {
   margin-bottom: 32px;
@@ -600,7 +665,7 @@ marquee:before {
   color: #686868;
   font-weight: bold;
   margin: 0;
-  text-align: center; }
+  text-align: left; }
   .contacts_prj p span {
     font-size: 18px;
     color: #686868;
@@ -616,7 +681,9 @@ marquee:before {
   border-radius: 50%;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin: 32px auto;
+  display: block; }
 
 .canvas_1 {
   background-image: url(../../images/big_img.png); }
@@ -631,12 +698,10 @@ marquee:before {
   background-image: url(../../images/big_img.png); }
 
 .wrap_zahodi {
-  display: flex;
-  justify-content: space-between;
   max-width: 960px; }
 
 @media (min-width: 640px) {
-  .projectH_descr {
+  .projectH_descr, .projectHtoH_descr, .projectworkS_descr {
     height: 100%; }
 
   .meetings_wrap_blocks {
@@ -663,12 +728,20 @@ marquee:before {
     margin-left: -20px;
     margin-bottom: -50px; }
     .contact_person img {
-      margin-right: 25px;
+      margin-right: 60px;
+      margin-left: 48px;
       transform: rotate(1.5deg); }
     .contact_person span {
       transform: rotate(1.5deg); }
     .contact_person p {
-      transform: rotate(1.5deg); } }
+      transform: rotate(1.5deg); }
+
+  .canvas_1, .canvas_2, .canvas_3, .canvas_4 {
+    margin: 32px 0; }
+
+  .wrap_zahodi {
+    display: flex;
+    justify-content: space-between; } }
 @media (min-width: 960px) {
   .header_menu {
     flex-direction: row;
@@ -834,7 +907,8 @@ marquee:before {
     justify-content: center;
     background-color: inherit;
     background-image: url(../../images/plashka.png);
-    background-size: 100%; }
+    background-size: 100%;
+    background-repeat: no-repeat; }
 
   .heading_projects {
     padding: 80px 0; }
@@ -879,6 +953,12 @@ marquee:before {
     width: calc(50% - 32px);
     float: left; }
 
+  .HtoH_goals {
+    clear: both;
+    width: 100%; }
+    .HtoH_goals p {
+      max-width: 960px; }
+
   .project_goal::after {
     content: "";
     display: block;
@@ -897,10 +977,20 @@ marquee:before {
   .fb:before, .phone:before, .mail:before {
     margin: 16px auto; } }
 @media(min-width: 1280px) {
-  .projectH_descr {
+  .projectH_descr, .projectHtoH_descr, .projectworkS_descr {
     position: relative;
     z-index: 5;
     background-color: #e3f1b8; }
+
+  .projectHtoH_descr {
+    background-color: #d1f3f5;
+    position: relative;
+    z-index: 5; }
+
+  .projectworkS_descr {
+    background-color: #c2d1dd;
+    position: relative;
+    z-index: 5; }
 
   .header_projectH {
     flex-direction: row;
@@ -910,13 +1000,13 @@ marquee:before {
     background-color: #fff;
     z-index: 999; }
 
-  .freeH_img {
+  .freeH_img, .HtoH_img, .workS_img {
     top: 142px;
     position: fixed;
     width: 100%;
     z-index: 0; }
 
-  .second_heading {
+  .wrap_author {
     position: relative;
     margin-top: 500px; }
 
