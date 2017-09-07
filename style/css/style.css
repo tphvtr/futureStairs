@@ -405,12 +405,12 @@ marquee:before {
   background-repeat: no-repeat;
   background-color: #fff; }
 
-.freeH_img, .HtoH_img, .workS_img {
+.freeH_img, .HtoH_img, .workS_img, .schoolP_img, .studentsR_img, .PR_img {
   background-image: url(../../images/freeH_Big.jpg);
   background-size: cover;
   height: 370px; }
 
-.green_block, .blue_block, .workS_blue_block {
+.green_block, .blue_block, .workS_blue_block, .orange_block, .studentsR_blue_block {
   background-color: rgba(82, 167, 71, 0.52);
   height: 380px;
   position: relative; }
@@ -421,6 +421,12 @@ marquee:before {
 .workS_blue_block {
   background-color: rgba(7, 57, 100, 0.52); }
 
+.orange_block {
+  background-color: rgba(252, 183, 19, 0.52); }
+
+.studentsR_blue_block {
+  background-color: rgba(13, 150, 180, 0.52); }
+
 .HtoH_img {
   background-image: url(../../images/Human_helps.png);
   background-repeat: no-repeat; }
@@ -428,6 +434,16 @@ marquee:before {
 .workS_img {
   background-image: url(../../images/work_search_Main.png);
   background-repeat: no-repeat;
+  background-position: center; }
+
+.schoolP_img {
+  background-image: url(../../images/schoolP_img.png); }
+
+.studentsR_img {
+  background-image: url(../../images/studentsR_img.png); }
+
+.PR_img {
+  background-image: url(../../images/PR_img.png);
   background-position: center; }
 
 .second_heading {
@@ -484,7 +500,7 @@ marquee:before {
   content: "";
   clear: both; }
 
-.brown_block, .blue_block_meta, .workS_goal_block {
+.brown_block, .blue_block_meta, .workS_goal_block, .schoolP_goal_block, .studentsR_goal_block {
   position: absolute;
   top: 0;
   width: 100%;
@@ -496,29 +512,41 @@ marquee:before {
   background-color: rgba(209, 243, 245, 0.52);
   height: 448px; }
 
-.workS_goal_block {
+.workS_goal_block, .schoolP_goal_block {
   background-color: rgba(194, 209, 221, 0.52);
   height: 392px; }
 
-.projectH_descr, .projectHtoH_descr, .projectworkS_descr {
+.schoolP_goal_block {
+  background-color: rgba(255, 241, 173, 0.52); }
+
+.studentsR_goal_block {
+  background-color: rgba(209, 243, 245, 0.52); }
+
+.projectH_descr, .projectHtoH_descr, .projectworkS_descr, .projectschoolP_descr, .projectstudentsR_descr, .projectPR_descr {
   background-color: #e3f1b8;
   position: relative;
   height: 516px; }
-  .projectH_descr h2, .projectHtoH_descr h2, .projectworkS_descr h2 {
+  .projectH_descr h2, .projectHtoH_descr h2, .projectworkS_descr h2, .projectschoolP_descr h2, .projectstudentsR_descr h2, .projectPR_descr h2 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
     position: relative;
     bottom: -32px; }
-  .projectH_descr p, .projectHtoH_descr p, .projectworkS_descr p {
-    max-width: 640px;
+  .projectH_descr p, .projectHtoH_descr p, .projectworkS_descr p, .projectschoolP_descr p, .projectstudentsR_descr p, .projectPR_descr p {
+    max-width: 740px;
     font-size: 22px;
     margin: auto;
     padding: 16px;
     bottom: -64px;
     position: relative; }
+  .projectH_descr span, .projectHtoH_descr span, .projectworkS_descr span, .projectschoolP_descr span, .projectstudentsR_descr span, .projectPR_descr span {
+    position: relative;
+    bottom: -128px;
+    margin: 0 auto;
+    display: block;
+    max-width: 520px; }
 
-.projectH_descr::before, .projectH_descr::after, .projectHtoH_descr::after, .projectworkS_descr::after, .projectHtoH_descr::before, .projectworkS_descr::before {
+.projectH_descr::before, .projectH_descr::after, .projectHtoH_descr::after, .projectworkS_descr::after, .projectschoolP_descr::after, .projectstudentsR_descr::after, .projectPR_descr::after, .projectHtoH_descr::before, .projectworkS_descr::before, .projectschoolP_descr::before, .projectstudentsR_descr::before, .projectPR_descr::before {
   display: block;
   content: "";
   background-image: url(../../images/top_freeH.png);
@@ -534,7 +562,7 @@ marquee:before {
   margin-bottom: 64px;
   z-index: 1; }
 
-.projectH_descr::after, .projectHtoH_descr::after, .projectworkS_descr::after {
+.projectH_descr::after, .projectHtoH_descr::after, .projectworkS_descr::after, .projectschoolP_descr::after, .projectstudentsR_descr::after, .projectPR_descr::after {
   background-image: url(../../images/bottom_freeH.png);
   margin-bottom: 0; }
 
@@ -548,25 +576,37 @@ marquee:before {
   background-image: url(../../images/HtoH_meta_bot.png);
   padding-bottom: 32px; }
 
-.projectworkS_descr {
+.projectworkS_descr, .projectschoolP_descr {
   background-color: #c2d1dd;
   height: 426px; }
-  .projectworkS_descr h2 {
+  .projectworkS_descr h2, .projectschoolP_descr h2 {
     bottom: -96px; }
-  .projectworkS_descr p {
+  .projectworkS_descr p, .projectschoolP_descr p {
     bottom: -128px; }
 
-.projectworkS_descr::before {
+.projectworkS_descr::before, .projectschoolP_descr::before {
   background-image: url(../../images/workS_plashka_top.png);
   background-size: 80%;
   padding-top: 56px; }
 
-.projectworkS_descr::after {
+.projectworkS_descr::after, .projectschoolP_descr::after {
   background-image: url(../../images/workS_plashka_bot.png);
   background-size: 80%;
   padding-bottom: 16px;
   padding-top: -72px;
   height: 80px; }
+
+.projectschoolP_descr {
+  background-color: #fff1ad; }
+
+.projectstudentsR_descr {
+  background-color: #d1f3f5; }
+
+.projectstudentsR_descr::before {
+  background-image: url(../../images/studentsR_top.png); }
+
+.projectstudentsR_descr::after {
+  background-image: url(../../images/studentsR_bot.png); }
 
 .btn_new {
   text-transform: uppercase;
@@ -576,7 +616,7 @@ marquee:before {
   margin: 72px auto 0;
   text-align: center;
   color: #fff;
-  width: 150px;
+  width: 220px;
   height: 50px;
   background-color: #52A747;
   display: flex;
@@ -628,6 +668,11 @@ marquee:before {
   width: 62px;
   height: 73px;
   margin-left: 32px; }
+
+.laptop_img {
+  width: 80px;
+  height: 73px;
+  margin-left: 16px; }
 
 .meetings_wrap {
   margin-bottom: 32px;
@@ -701,7 +746,7 @@ marquee:before {
   max-width: 960px; }
 
 @media (min-width: 640px) {
-  .projectH_descr, .projectHtoH_descr, .projectworkS_descr {
+  .projectH_descr, .projectHtoH_descr, .projectworkS_descr, .projectschoolP_descr, .projectstudentsR_descr, .projectPR_descr {
     height: 100%; }
 
   .meetings_wrap_blocks {
@@ -977,7 +1022,7 @@ marquee:before {
   .fb:before, .phone:before, .mail:before {
     margin: 16px auto; } }
 @media(min-width: 1280px) {
-  .projectH_descr, .projectHtoH_descr, .projectworkS_descr {
+  .projectH_descr, .projectHtoH_descr, .projectworkS_descr, .projectschoolP_descr, .projectstudentsR_descr, .projectPR_descr {
     position: relative;
     z-index: 5;
     background-color: #e3f1b8; }
@@ -987,10 +1032,18 @@ marquee:before {
     position: relative;
     z-index: 5; }
 
-  .projectworkS_descr {
+  .projectworkS_descr, .projectschoolP_descr {
     background-color: #c2d1dd;
     position: relative;
     z-index: 5; }
+
+  .projectschoolP_descr {
+    background-color: #fff1ad;
+    position: relative;
+    z-index: 5; }
+
+  .projectstudentsR_descr {
+    background-color: #d1f3f5; }
 
   .header_projectH {
     flex-direction: row;
@@ -1000,7 +1053,7 @@ marquee:before {
     background-color: #fff;
     z-index: 999; }
 
-  .freeH_img, .HtoH_img, .workS_img {
+  .freeH_img, .HtoH_img, .workS_img, .schoolP_img, .studentsR_img, .PR_img {
     top: 142px;
     position: fixed;
     width: 100%;
