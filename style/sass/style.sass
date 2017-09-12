@@ -38,12 +38,16 @@ nav
 		width: 150px
 		display: flex
 		justify-content: center
+		padding: 20px 0
 		a
 			text-decoration: none
 			color: #000
 			text-transform: uppercase
 			font-size: 12px
 			padding: 4px 8px
+			line-height: 44px
+			width: 100%
+			text-align: center
 	li:hover
 		cursor: pointer
 		border-color: red
@@ -171,7 +175,7 @@ marquee:before
 	text-align: center
 	text-transform: uppercase
 	color: #fff
-	font-size: 24px
+	font-size: 38px
 	padding: 16px 0
 	background-image: url(../../images/plashka_prj.png)
 	background-size: contain
@@ -186,9 +190,10 @@ marquee:before
 	z-index: -1
 .wrap_triangle_lectors
 	background-color: $green
-	transform: rotate(-2deg)
+	transform: rotate(-1deg)
 .heading_lectors
-	transform: rotate(2deg)
+	transform: rotate(1deg)
+	font-size: 32px
 .wrap_projects
 	// background-color: $grey
 	overflow: hidden
@@ -275,6 +280,7 @@ marquee:before
 	text-transform: uppercase
 	font-size: 24px
 	color: $blue
+	margin-top: 64px
 .wrap_contacts
 	padding: 64px 0 32px
 	width: 100%
@@ -350,8 +356,8 @@ marquee:before
 	justify-content: center
 	align-items: center
 	font-weight: bold
-	width: 32px
-	height: 32px
+	width: 42px
+	height: 42px
 	font-size: 22px
 .mail_nav
 	@extend .facebook_nav
@@ -580,6 +586,10 @@ marquee:before
 		font-size: 32px
 		margin-top: 0
 		padding-top: 16px
+.project_goal_studentsR
+	display: flex
+	flex-direction: column
+	align-items: center
 .goals_block
 	display: flex
 	justify-content: flex-start
@@ -636,14 +646,15 @@ marquee:before
 	width: 100%
 	position: relative
 	img
-		width: 150px
-		height: 150px
+		width: 125px
+		height: 125px
 .contacts_prj
+	height: 120px
 	p
 		font-size: 24px
 		color: #686868
 		font-weight: bold
-		margin: 0
+		margin: 4px 0
 		text-align: left
 		span
 			font-size: 18px
@@ -806,9 +817,10 @@ marquee:before
 	.img_wrap_prj
 		transform: rotate(-5deg)
 		margin: 16px
+		width: 92.5%
+		padding: 3%
 		img
 			transform: rotate(5deg)
-			width: 80%
 			height: 272px
 	.wrap_projects article:nth-child(1)
 		margin-top: 54px
@@ -838,7 +850,7 @@ marquee:before
 	.lectors
 		float: left
 		width: calc(33.333% - 64px)
-		margin: 0 32px
+		margin: 16px 32px
 	.lectors_name
 		height: 50px
 	.wrap_contacts
@@ -870,7 +882,6 @@ marquee:before
 			display: inline
 			position: absolute
 			bottom: 104px
-			margin-left: 24px
 		blockquote
 			font-style: italic
 			font-size: 22px
