@@ -376,6 +376,11 @@ marquee:before
 	background-color: rgba(82, 167, 71, 0.52)
 	height: 380px
 	position: relative
+.news_block
+	@extend .green_block
+	background-color: rgba(0, 50, 94, .72)
+	height: 370px
+	width: 100%
 .blue_block
 	@extend .green_block
 	background-color: rgba(13, 150, 180, 0.52)
@@ -407,6 +412,12 @@ marquee:before
 	@extend .freeH_img
 	background-image: url(../../images/PR_img.png)
 	background-position: center
+.News_img
+	@extend .freeH_img
+	background-image: url(../../images/news_main.png)
+	background-position: center
+.news_svg
+	opacity: 0
 .second_heading
 	width: 100%
 	background-color: #52a747
@@ -665,7 +676,7 @@ marquee:before
 			text-decoration: none
 .paralaxM_wrap
 	padding-bottom: 64px
-.canvas_1, .canvas_2, .canvas_3, .canvas_4
+.canvas_1, .canvas_2, .canvas_3, .canvas_4, .canvas_news
 	border-radius: 50%
 	background-size: cover
 	background-position: center
@@ -680,9 +691,70 @@ marquee:before
 	background-image: url(../../images/wide_img.png)
 .canvas_4
 	background-image: url(../../images/big_img.png)
+.canvas_news
+	background-image: url(../../images/first_news.png)
+	position: relative
+	z-index: 5
 .wrap_zahodi
 	max-width: 960px
+.News-page_heading
+	font-size: 24px
+	text-transform: uppercase
+	margin: 0
+	position: relative
+	z-index: 5
+	text-align: center
+	max-width: 580px
+	font-weight: lighter
+	letter-spacing: .3px
+.plashka_blue
+	background-color: #0d96b4
+	width: 100%
+	transform: rotate(-1.5deg)
+	height: 50px
+	position: relative
+	z-index: 5
+	top: -19px
+.plashka_green
+	@extend .plashka_blue
+	background-color: #52a747
+	transform: rotate(1.5deg)
+.plashka_dark-blue
+	@extend .plashka_blue
+	background-color: #073964
+	transform: rotate(1.5deg)
+.wrapper_News
+	@extend .wrapper
+	min-height: 88%
+.wrap_plashka
+	position: relative
+	z-index: 5
+.wrap
+	background-color: #fff
+	position: relative
+	z-index: 5
+.news_date
+	font-size: 24px
+	font-weight: bold
+.news_article
+	padding: 0 32px
+	margin: 0 0 64px
+	display: flex
+	h2
+		max-width: 378px
+	p
+		max-width: 640px
+	.canvas_news
+		height: 200px
+		width: 200px
+.news_article:nth-child(n+3)
+	flex-direction: row-reverse
 @media (min-width: 640px)
+	.news_svg
+		opacity: 1
+		transition: all .3s linear
+		position: relative
+		top: 80px
 	.projectH_descr
 		height: 100%
 	.meetings_wrap_blocks

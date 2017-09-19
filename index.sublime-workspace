@@ -4,24 +4,128 @@
 		"selected_items":
 		[
 			[
-				"ta",
-				"table-cell"
+				"ca",
+				"canvas_news_1"
 			],
 			[
-				"margin",
-				"margin-bottom"
+				"canvas_",
+				"canvas_news_1"
+			],
+			[
+				"cana",
+				"canvas_4"
+			],
+			[
+				"wdi",
+				"width"
+			],
+			[
+				"transpa",
+				"transparent"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"font",
+				"font-weight"
 			],
 			[
 				"text-",
-				"text-decoration"
+				"text-indent"
+			],
+			[
+				"text",
+				"text-align"
 			],
 			[
 				"margi",
-				"margin-bottom"
+				"margin"
+			],
+			[
+				"bg-",
+				"background-color"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"flex",
+				"flex-end"
+			],
+			[
+				"margin",
+				"margin-top"
 			],
 			[
 				"padd",
-				"padding-left"
+				"padding"
+			],
+			[
+				"alig",
+				"align-content"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"project",
+				"projectPR_descr"
+			],
+			[
+				"projec",
+				"projectPR_descr"
+			],
+			[
+				"pro",
+				"projectH_descr"
+			],
+			[
+				"works",
+				"workS_goal_block"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"work",
+				"wrokS_plashka_top"
+			],
+			[
+				"proje",
+				"projectH_descr"
+			],
+			[
+				"cont",
+				"contain"
+			],
+			[
+				"free",
+				"freeH_img"
+			],
+			[
+				"green",
+				"green_block"
+			],
+			[
+				"canva",
+				"canvas_1"
+			],
+			[
+				"ta",
+				"table-cell"
 			],
 			[
 				"tex",
@@ -32,20 +136,8 @@
 				"margin-top"
 			],
 			[
-				"pad",
-				"padding"
-			],
-			[
 				"list-s",
 				"list-style-type"
-			],
-			[
-				"text",
-				"text-decoration"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"font-",
@@ -58,10 +150,6 @@
 			[
 				"col",
 				"color"
-			],
-			[
-				"marg",
-				"margin-right"
 			],
 			[
 				"padi",
@@ -80,28 +168,12 @@
 				"font-size"
 			],
 			[
-				"ca",
-				"canvas_4"
-			],
-			[
-				"bg-",
-				"background-image"
-			],
-			[
 				"canvs",
 				"canvas_2"
 			],
 			[
-				"cana",
-				"canvas_1"
-			],
-			[
 				"stroke",
 				"strokeStyle"
-			],
-			[
-				"align",
-				"align-items"
 			],
 			[
 				"font-s",
@@ -116,20 +188,12 @@
 				"padding-bottom"
 			],
 			[
-				"tran",
-				"transparent"
-			],
-			[
 				"flex-",
 				"flex-direction"
 			],
 			[
 				"tra",
 				"transform"
-			],
-			[
-				"trans",
-				"transparent"
 			],
 			[
 				"abs",
@@ -144,20 +208,8 @@
 				"open_modal_1"
 			],
 			[
-				"alig",
-				"align-items"
-			],
-			[
-				"flex",
-				"flex-direction"
-			],
-			[
 				"main",
 				"main_heading_freeH_small"
-			],
-			[
-				"free",
-				"freeH_block"
 			],
 			[
 				"inl",
@@ -208,20 +260,12 @@
 				"rgba\trgba()"
 			],
 			[
-				"project",
-				"projectH_descr"
-			],
-			[
 				"bac",
 				"background-image"
 			],
 			[
 				"feat",
 				"features_wrap"
-			],
-			[
-				"ali",
-				"align-self"
 			],
 			[
 				"s",
@@ -328,29 +372,28 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/otets/Desktop/work/masterB_mail/meet.html",
+			"file": "news.html",
 			"settings":
 			{
-				"buffer_size": 10205,
+				"buffer_size": 2907,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/otets/Desktop/work/masterB_mail/index.html",
+			"file": "js/canvas.js",
 			"settings":
 			{
-				"buffer_size": 4115,
+				"buffer_size": 2864,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/otets/Desktop/work/masterB_mail/remind.html",
+			"file": "style/sass/style.sass",
 			"settings":
 			{
-				"buffer_size": 4326,
-				"encoding": "UTF-8",
+				"buffer_size": 20030,
 				"line_ending": "Windows"
 			}
 		}
@@ -392,19 +435,41 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/otets/Desktop/work/masterB_mail"
+		"/C/Users/otets/Desktop/work/futureStairs",
+		"/C/Users/otets/Desktop/work/futureStairs/js"
 	],
 	"file_history":
 	[
+		"/C/Users/otets/Desktop/work/futureStairs/project_schoolP.html",
+		"/C/Users/otets/Desktop/work/mybrovary/package.json",
+		"/C/Users/otets/Desktop/work/mybrovary/src/gulpfile.js",
+		"/C/Users/otets/Desktop/work/mybrovary/src/style/partials/app.sass",
+		"/C/Users/otets/Desktop/work/mybrovary/src/index.html",
+		"/C/Users/otets/Desktop/work/mybrovary/src/template/footer.html",
+		"/C/Users/otets/Desktop/work/mybrovary/gulpfile.js",
+		"/C/Users/otets/Desktop/work/mybrovary/src/style/main.sass",
+		"/C/Users/otets/Desktop/work/mybrovary/npm-debug.log",
+		"/C/Users/otets/Desktop/work/mybrovary/node_modules/har-validator/package.json",
+		"/C/Users/otets/Desktop/work/mybrovary/src/js/main.js",
+		"/C/Users/otets/Desktop/work/mybrovary/src/js/partials/app.js",
+		"/C/Users/otets/Desktop/work/futureStairs/news.html",
+		"/C/Users/otets/Desktop/work/futureStairs/style/sass/style.sass",
+		"/C/Users/otets/Desktop/work/futureStairs/index.sublime-project",
+		"/C/Users/otets/Desktop/work/futureStairs/js/canvas.js",
+		"/C/Users/otets/Desktop/work/futureStairs/project_workS.html",
+		"/C/Users/otets/Desktop/work/futureStairs/project_studentsR.html",
+		"/C/Users/otets/Desktop/work/futureStairs/project_freeH.html",
+		"/C/Users/otets/Desktop/work/futureStairs/index.html",
+		"/C/Users/otets/Desktop/work/futureStairs/project_HtoH.html",
+		"/C/Users/otets/Desktop/work/futureStairs/project_PR.html",
+		"/C/Users/otets/Desktop/work/futureStairs/project_freeH.php",
+		"/C/Users/otets/Desktop/work/futureStairs/header.php",
+		"/C/Users/otets/Desktop/work/masterB_mail/remind.html",
 		"/C/Users/otets/Desktop/work/masterB_mail/meet.html",
 		"/C/Users/otets/Desktop/work/masterB_mail/index.html",
 		"/C/Users/otets/Desktop/work/masterB/index.html",
 		"/C/Users/otets/Desktop/work/masterB/style/style.css",
 		"/C/Users/otets/Desktop/work/masterB_mail/mail.html",
-		"/C/Users/otets/Desktop/work/futureStairs/style/sass/style.sass",
-		"/C/Users/otets/Desktop/work/futureStairs/index.html",
-		"/C/Users/otets/Desktop/work/futureStairs/project_freeH.html",
-		"/C/Users/otets/Desktop/work/futureStairs/js/canvas.js",
 		"/C/Users/otets/Desktop/work/masterB/features.html",
 		"/C/Users/otets/Desktop/work/masterB/clients.html",
 		"/C/Users/otets/Desktop/work/masterB/js/jQuery.js",
@@ -423,7 +488,7 @@
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 52.0
 	},
 	"find_in_files":
 	{
@@ -437,6 +502,76 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"canvas",
+			"canvas_1",
+			"canvas",
+			"css",
+			"default",
+			"path",
+			"templates",
+			"sourcemaps",
+			"rigger",
+			"custom",
+			"scss",
+			"minify",
+			"min",
+			"browser",
+			"cssmin",
+			"css",
+			"css-min",
+			"reload",
+			"browser",
+			"svg",
+			"canvas_1",
+			"canvas",
+			"wrapper",
+			"news_block",
+			"canvas",
+			"project_goal",
+			"prj_goal_wrap",
+			"goals_block",
+			"heading_lectors",
+			"img_wrap_prj",
+			"img_wrap_p",
+			"img",
+			"heading_projects",
+			"name",
+			"Name",
+			"freeH_img",
+			"073964",
+			"studentsR_goal_block",
+			"works_img",
+			"workS_goal_block",
+			"btn_new",
+			"blue",
+			"bulb_img",
+			"426",
+			"456",
+			"projectfreeH_descr",
+			"projectH_descr",
+			"blue_block_meta",
+			"brown_block",
+			"blue_block",
+			"brown_block",
+			"blue_block",
+			"contact_person",
+			"btn_new",
+			"goals_block",
+			"project_goal",
+			"prj_goal_wrap",
+			"goals_block",
+			"project_goal",
+			"projectHtoH",
+			"project_HtoH",
+			"wrap_author",
+			"wrap_autor",
+			"brown_block",
+			"paralaxM_wrap",
+			"paralax",
+			"canvas",
+			"goals_block",
+			"wrap_zahodi",
+			"zahodi",
 			"width: 440",
 			"440",
 			"проету",
@@ -494,77 +629,7 @@
 			"project",
 			"project_goal",
 			"projectH_Descr",
-			"brown",
-			"projec",
-			"projectH_des",
-			"contact_p",
-			"main_heading_freeH",
-			"project_g",
-			"goals",
-			"project_goal",
-			"project_gola",
-			"proje",
-			"wrap_aut",
-			"freeH_img",
-			"wrapper",
-			"freeH_img",
-			"freeH",
-			"contact_p",
-			"contact_pers",
-			"contact_",
-			"wrap_contacts",
-			"contact_pe",
-			"wrap_contact",
-			"contacts",
-			"contact_p",
-			"contacts_p",
-			"contact",
-			"contacts",
-			"contact_",
-			"contact_pers",
-			"footer",
-			"contact_",
-			"plashka",
-			"640px",
-			"contact",
-			"contact_wr",
-			"mail",
-			"contact",
-			".",
-			"freeH_img",
-			"contact_",
-			"wrap_contacts",
-			"contact_pers",
-			"header_pr",
-			"freeH",
-			"contact",
-			"contacts",
-			"footer",
-			"projectH",
-			"860px",
-			"header_menu",
-			"wrap_auth",
-			"main_heading_freeH",
-			"150px",
-			"header_menu",
-			"heading_afisha",
-			"heading_afish",
-			"heading_pro",
-			"news_head",
-			"heading_afisha",
-			"finance_wrap",
-			".logo",
-			".contact",
-			"know_more_btn",
-			"know",
-			"question",
-			"features_",
-			"features",
-			".finance_ul li:nth-child(7):before",
-			"media",
-			"features_block",
-			"img_Wra",
-			"blue"
+			"brown"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -582,24 +647,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/otets/Desktop/work/masterB_mail/meet.html",
+					"file": "news.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10205,
+						"buffer_size": 2907,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								10205
+								1654,
+								1654
 							]
 						],
 						"settings":
@@ -608,33 +673,38 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 329.0,
+						"translation.y": 433.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 1,
-					"file": "/C/Users/otets/Desktop/work/masterB_mail/index.html",
+					"file": "js/canvas.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4115,
+						"buffer_size": 2864,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								4115
+								4,
+								10
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -645,44 +715,39 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Users/otets/Desktop/work/masterB_mail/remind.html",
+					"file": "style/sass/style.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4326,
+						"buffer_size": 20030,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								4326
+								15061,
+								15069
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 937.0,
+						"translation.y": 13316.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -726,7 +791,7 @@
 	"project": "index.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 53.0
 	},
 	"save_all_on_build": true,
 	"select_file":
