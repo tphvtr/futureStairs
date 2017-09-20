@@ -787,7 +787,7 @@ marquee:before {
   font-weight: lighter;
   letter-spacing: 0.3px; }
 
-.plashka_blue, .plashka_green, .plashka_dark-blue {
+.plashka_blue, .plashka_green, .plashka_dark-blue, .plashka_light-brown {
   background-color: #0d96b4;
   width: 100%;
   transform: rotate(-1.5deg);
@@ -803,6 +803,10 @@ marquee:before {
 .plashka_dark-blue {
   background-color: #073964;
   transform: rotate(1.5deg); }
+
+.plashka_light-brown {
+  background-color: #d4ea94;
+  top: 32px; }
 
 .wrapper_News {
   min-height: 88%; }
@@ -828,12 +832,40 @@ marquee:before {
     max-width: 378px; }
   .news_article p {
     max-width: 640px; }
-  .news_article .canvas_news {
-    height: 200px;
-    width: 200px; }
 
-.news_article:nth-child(n+3) {
-  flex-direction: row-reverse; }
+.canvas_news {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto; }
+
+.news_article:nth-child(2) {
+  flex-direction: column; }
+  .news_article:nth-child(2) canvas {
+    background-image: url(../../images/news_1.png); }
+
+.news_article:nth-child(4) {
+  flex-direction: column; }
+  .news_article:nth-child(4) canvas {
+    background-image: url(../../images/news_2.png); }
+
+.news_article:nth-child(6) {
+  flex-direction: column; }
+  .news_article:nth-child(6) canvas {
+    background-image: url(../../images/news_3.png); }
+
+.text_wrap {
+  max-width: 860px; }
+  .text_wrap .news_list {
+    padding: 0;
+    list-style-type: none; }
+    .text_wrap .news_list li:before {
+      content: "-";
+      display: block;
+      float: left;
+      margin-right: 6px; }
+  .text_wrap .news_no-mark_list {
+    list-style-type: none;
+    padding: 0; }
 
 @media (min-width: 640px) {
   .news_svg {
@@ -1116,7 +1148,16 @@ marquee:before {
     text-align: center; }
 
   .fb:before, .phone:before, .mail:before {
-    margin: 16px auto; } }
+    margin: 16px auto; }
+
+  .news_article:nth-child(2) {
+    flex-direction: row-reverse; }
+
+  .news_article:nth-child(4) {
+    flex-direction: row; }
+
+  .news_article:nth-child(6) {
+    flex-direction: row-reverse; } }
 @media(min-width: 1280px) {
   .projectH_descr, .projectHtoH_descr, .projectworkS_descr, .projectschoolP_descr, .projectstudentsR_descr, .projectPR_descr {
     position: relative;

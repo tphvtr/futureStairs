@@ -723,6 +723,10 @@ marquee:before
 	@extend .plashka_blue
 	background-color: #073964
 	transform: rotate(1.5deg)
+.plashka_light-brown
+	@extend .plashka_blue
+	background-color: #d4ea94
+	top: 32px
 .wrapper_News
 	@extend .wrapper
 	min-height: 88%
@@ -744,11 +748,35 @@ marquee:before
 		max-width: 378px
 	p
 		max-width: 640px
-	.canvas_news
-		height: 200px
-		width: 200px
-.news_article:nth-child(n+3)
-	flex-direction: row-reverse
+.canvas_news
+	width: 250px
+	height: 250px
+	margin: 0 auto
+.news_article:nth-child(2) 
+	flex-direction: column
+	canvas
+		background-image: url(../../images/news_1.png)
+.news_article:nth-child(4) 
+	flex-direction: column
+	canvas
+			background-image: url(../../images/news_2.png)
+.news_article:nth-child(6) 
+	flex-direction: column
+	canvas
+			background-image: url(../../images/news_3.png)
+.text_wrap
+	max-width: 860px
+	.news_list
+		padding: 0
+		list-style-type: none
+		li:before
+			content: '-'
+			display: block
+			float: left
+			margin-right: 6px
+	.news_no-mark_list
+		list-style-type: none
+		padding: 0
 @media (min-width: 640px)
 	.news_svg
 		opacity: 1
@@ -988,6 +1016,12 @@ marquee:before
 		text-align: center
 	.fb:before
 		margin: 16px auto
+	.news_article:nth-child(2) 
+		flex-direction: row-reverse
+	.news_article:nth-child(4) 
+		flex-direction: row
+	.news_article:nth-child(6) 
+		flex-direction: row-reverse
 @media(min-width: 1280px)
 	.projectH_descr
 		position: relative
