@@ -790,11 +790,7 @@ marquee:before
 .wrap_blog
 	max-width: 960px
 	margin: 0 auto
-	height: 664px
-	canvas
-		height: 200px
-		width: 200px
-		background-image: url(../../images/trainer_1.png)
+	height: 464px
 .carousel-control-next
 	justify-content: flex-end
 	align-items: flex-start
@@ -814,24 +810,13 @@ marquee:before
 	@extend .carousel-control-next-icon
 	background-image: url(../../images/carousel-prev.png)
 	margin-left: 16px
-.blog_article:before
-	content: ''
-	display: block
-	top: -100px
-	left: -100px
-	position: absolute
-	width: 200px
-	height: 200px
-	border-radius: 50%
-	background-color: #fff
 .blog_article
 	background-color: $green
 	top: 19%
 	left: 12.5%
 	max-width: 354px
-	padding: 32px 8px 16px
+	padding: 32px 8px 32px
 	position: absolute
-	z-index: 4
 	h2
 		font-size: 24px
 		color: #fff
@@ -860,7 +845,10 @@ marquee:before
 		cursor: pointer
 		transform: scale(1.02)
 		transition: linear all .3s
+.blog_article_first
+	@extend .blog_article
 .blog_article-second
+	@extend .blog_article
 	background-color: #0d96b4
 	left: 37%
 .blog_article-third
@@ -894,12 +882,11 @@ marquee:before
 	color: #fff
 .open_modal_1, .open_modal_2, .open_modal_3, .open_modal_4
 	position: relative
-	z-index: 3
 	width: 250px
 	height: 300px
 #overlay 
-	z-index: 3
 	position: fixed 
+	z-index: 1
 	background-color: transparent
 	opacity: 0.8
 	width: 100%
@@ -908,6 +895,30 @@ marquee:before
 	left: 0
 	cursor: pointer
 	display: none
+.open_modal_1
+	z-index: 8
+.open_modal_2
+	z-index: 6
+.open_modal_3
+	z-index: 4
+.open_modal_4
+	z-index: 2
+.canvas_first
+	height: 200px
+	width: 200px
+	background-image: url(../../images/trainer_1.png)
+.canvas_second
+	height: 200px
+	width: 200px
+	background-image: url(../../images/trainer_2.png)	
+.canvas_third
+	height: 200px
+	width: 200px
+	background-image: url(../../images/trainer_3.png)
+.canvas_fourth
+	height: 200px
+	width: 200px
+	background-image: url(../../images/trainer_4.png)
 @media (min-width: 640px)
 	.news_svg
 		opacity: 1
