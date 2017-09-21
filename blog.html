@@ -170,33 +170,42 @@
 				    <span class="sr-only">Next</span>
 				  </a>
 			</div>
-			<article class="wrap_post">
-				<canvas class="post_trainer-first"></canvas>
-				<h2>&laquo;Слухати і чути&raquo;</h2>
-				<p class="blog_date">25.07.2017</p>
-				<p class="post_text">
-					<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, pariatur dolore ratione doloremque fugit temporibus, alias porro voluptas, voluptatibus quos quibusdam assumenda ipsum consequatur. Esse, maxime, hic. Excepturi eum temporibus, quos nesciunt natus! Tenetur maiores doloremque, numquam porro nemo mollitia!</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia dolore ex dolorum vero porro, deleniti molestiae dolores blanditiis saepe esse dignissimos corrupti, nostrum perferendis.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, dignissimos necessitatibus quibusdam et repellat, voluptatum deleniti quo deserunt alias, nobis eius at ratione ad doloremque perspiciatis, sapiente! Doloremque totam qui architecto quidem, excepturi earum repellendus cumque reiciendis omnis officiis in ea, asperiores nihil ipsum numquam voluptate. Eius quia temporibus impedit consequuntur iusto totam voluptatum assumenda, veniam ut ex fuga incidunt.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi veniam magni dignissimos. Optio, nulla, officia.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, sequi!</p>
-					<a href="#" class="btn-post">Далі</a>
-				</p>
-				<div class="comment_wrap">
-					<a href="" class="btn-add_comment">Додати коментар</a>
+			<div class="wrap_post">
+				<div class="post_block">
+					<canvas width="200" height="200" id="post_trainer-first" class="post_trainer-first"></canvas>
+					<article class="article_post">
+						<h2>&laquo;Слухати і чути&raquo;</h2>
+						<p id="blog_date" class="blog_date-post">25.07.2017</p>
+						<div class="post_text">
+							<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, pariatur dolore ratione doloremque fugit temporibus, alias porro voluptas, voluptatibus quos quibusdam assumenda ipsum consequatur. Esse, maxime, hic. Excepturi eum temporibus, quos nesciunt natus! Tenetur maiores doloremque, numquam porro nemo mollitia!</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia dolore ex dolorum vero porro, deleniti molestiae dolores blanditiis saepe esse dignissimos corrupti, nostrum perferendis.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, dignissimos necessitatibus quibusdam et repellat, voluptatum deleniti quo deserunt alias, nobis eius at ratione ad doloremque perspiciatis, sapiente! Doloremque totam qui architecto quidem, excepturi earum repellendus cumque reiciendis omnis officiis in ea, asperiores nihil ipsum numquam voluptate. Eius quia temporibus impedit consequuntur iusto totam voluptatum assumenda, veniam ut ex fuga incidunt.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi veniam magni dignissimos. Optio, nulla, officia.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, sequi!</p>
+							<a href="#" class="btn-post">Далі</a>
+						</div>
+					</article>
 				</div>
-			</article>
-			<article class="comment-block">
-				<canvas class="canvas_first"></canvas>
-				<p>
-					Валентин <span class="comment-date">Вчора, 21:55</span>
-				</p>
-				<p class="comment-text">
-					Не зміг не позволити собі проаналізувати розклад і зробити ряд висновків 
-					та низку пропозицій.
-				</p>
-			</article>
-			<div id="overlay" style="display: none;"></div>
+				<div class="comment_wrap">
+					<a href="#" class="btn-add_comment">Додати коментар</a>
+				</div>
+				<article class="comment-block">
+					<canvas width="100" height="100" class="canvas_comment-first" id="canvas_comment-first"></canvas>
+						<div class="text_wrap">
+							<div class="flex-wrap-text">
+								<p class="comment-heading">
+									Валентин
+								</p>
+								<span class="comment-date">Вчора, 21:55</span>
+							</div>
+							<p class="comment-text">
+								Не зміг не позволити собі проаналізувати розклад і зробити ряд висновків 
+								та низку пропозицій.
+							</p>
+						</div>
+				</article>
+				<div id="overlay" style="display: none;"></div>
+			</div>
 		</div>
 		<div class="wrap_contacts">
 			<div class="fb">

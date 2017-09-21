@@ -25,6 +25,9 @@ header {
 img {
   width: 100%; }
 
+a:hover {
+  text-decoration: none; }
+
 .wrapper, .wrapper_News {
   min-height: 100%;
   margin-bottom: -150px;
@@ -755,7 +758,8 @@ marquee:before {
 .paralaxM_wrap {
   padding-bottom: 64px; }
 
-.canvas_1, .canvas_2, .canvas_3, .canvas_4, .canvas_news, .canvas_blog {
+.canvas_1, .canvas_2, .canvas_3, .canvas_4, .canvas_news, .canvas_blog,
+.post_trainer-first, .canvas_comment-first {
   border-radius: 50%;
   background-size: cover;
   background-position: center;
@@ -779,6 +783,9 @@ marquee:before {
   background-image: url(../../images/first_news.png);
   position: relative;
   z-index: 5; }
+
+.post_trainer-first {
+  background-image: url(../../images/trainer_1.png); }
 
 .wrap_zahodi {
   max-width: 960px; }
@@ -1023,6 +1030,127 @@ marquee:before {
   height: 200px;
   width: 200px;
   background-image: url(../../images/trainer_4.png); }
+
+.wrap_post {
+  background-color: #fff;
+  margin-bottom: -32px; }
+
+.post_block {
+  background: linear-gradient(to bottom, #0d96b4, #fff);
+  padding: 32px 0 64px; }
+
+.article_post {
+  max-width: 960px;
+  margin: auto; }
+  .article_post h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right; }
+
+.blog_date-post {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-align: right; }
+
+.post_text {
+  background-color: #fff;
+  width: 50%;
+  max-width: 960px;
+  float: right;
+  padding-left: 32px;
+  padding-top: 16px; }
+  .post_text p {
+    width: 66%;
+    font-size: 12px; }
+
+.post_block::after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.post_trainer-first {
+  float: left;
+  margin-left: 264px; }
+
+.comment_wrap {
+  background-color: #0d96b4;
+  padding: 16px 0; }
+
+.btn-add_comment {
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  text-align: center;
+  padding: 16px 32px;
+  font-size: 18px; }
+
+.btn-add_comment:hover {
+  border-color: #ccc;
+  color: #ccc; }
+
+.btn-post {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #0d96b4;
+  display: block;
+  width: 25%;
+  text-align: center;
+  padding: 4px 16px;
+  font-size: 18px;
+  margin: 16px auto; }
+
+.btn-post:hover {
+  color: #fff;
+  background-color: #0e6f84; }
+
+.comment-block:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.comment-block {
+  max-width: 860px;
+  margin: 32px auto;
+  background-color: rgba(82, 167, 71, 0.52); }
+
+.flex-wrap-text {
+  display: flex;
+  border-bottom: 2px solid #52A747; }
+
+.comment-heading {
+  float: left;
+  margin: 0 32px 0 0; }
+
+.canvas_comment-first {
+  background-image: url(../../images/trainer_1.png);
+  float: left;
+  position: relative;
+  left: -50px;
+  margin: 0; }
+
+.comment-text {
+  float: left;
+  font-size: 12px;
+  margin-top: 16px; }
+
+.text_wrap {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top: 8px;
+  font-size: 13px; }
+
+.text_wrap::after {
+  content: "";
+  display: block;
+  clear: both; }
 
 @media (min-width: 640px) {
   .news_svg {
