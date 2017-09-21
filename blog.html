@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style>
+   @font-face {
+    font-family: Pompadur;
+    src: local(pompadur), url(fonts/CenturyGothic.ttf);
+   }
+   h1 {
+    font-family: Pompadur;
+   }
+  </style>
+	<link rel="shortcut icon" href="images/x-icon.ico" type="images/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="style/css/style.css">
+	<title>| Блог</title>
+</head>
+<body>
+	<div class="wrapper wrapper_News">
+		<header class="header_projectH">
+			<a href="index.html">
+				<span class="logo"></span>
+			</a>
+			<nav>
+				<ul class="header_menu">
+					<li><a href="#">Афіша</a></li>
+					<li><a href="#">Наша Історія</a></li>
+					<li><a href="#">Програми розвитку</a></li>
+					<li><a href="news.html">Новини</a></li>
+					<li><a href="blog.html">Блог</a></li>
+					<li class="auth"><a href="#">Авторизуватись</a></li>
+					<a class="facebook_nav" href="https://www.facebook.com/futuresshody"></a>
+					<a class="mail_nav" href="mailto:news@futuresshody.com.ua"></a>
+				</ul>
+			</nav>
+		</header>
+		<div class="Blog_img">
+			<div class="blog_block">
+				<svg height="150" width="580" class="news_svg">
+  					<polygon points="0,60 450,0 580,150 0,150" style="fill:white;stroke:white;stroke-width:1" />
+				</svg>
+				<p class="News-page_heading">
+					 Блог
+				</p>
+			</div>
+		</div>
+	</div>
+		<div class="wrap">
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				  <div class="carousel-inner" role="listbox">
+				    <div class="carousel-item active">
+				      <div class="wrap_blog">
+				      	<a href="#modal1" class="open_modal_1">
+			    			<canvas id="canvas_1" class="canvas_blog" height="200" width="200">
+							</canvas>
+						</a>
+								<article id="modal1" class="blog_article modal_div"  style="opacity: 0; display: none;">
+									<span class="modal_close">x</span>
+									<h2>“СЛУХАТИ І ЧУТИ”</h2>
+									<p id="blog_date" class="blog_date">25.07.2017</p>
+									<p class="blog_text">
+									“Живемо в насичений час. 
+									Сьогодення просто переповнене гіперактивним 
+									спілкуванням. 
+									Брифінги, конференції, круглі столи, семінари, 
+									симпозіуми, дискусійні клуби, всенародні обговорення, 
+									тематичні групи, робочі групи, ток-шоу, інтерв’ю, дописи,
+									трансляції…
+									</p>
+									<a href="#" class="blog_btn-read">Читати</a>
+								</article>
+							<a href="#modal2" class="open_modal_2">
+								<canvas id="canvas_2" class="canvas_blog" height="200" width="200">
+								</canvas>
+							</a>
+							<article id="modal2" class="blog_article modal_div blog_article-second"  style="opacity: 0; display: none;">
+									<span class="modal_close">x</span>
+									<h2>“СЛУХАТИ І ЧУТИ”</h2>
+									<p id="blog_date" class="blog_date">25.07.2017</p>
+									<p class="blog_text">
+									“Живемо в насичений час. 
+									Сьогодення просто переповнене гіперактивним 
+									спілкуванням. 
+									Брифінги, конференції, круглі столи, семінари, 
+									симпозіуми, дискусійні клуби, всенародні обговорення, 
+									тематичні групи, робочі групи, ток-шоу, інтерв’ю, дописи,
+									трансляції…
+									</p>
+									<a href="#" class="blog_btn-read">Читати</a>
+							</article>
+							<a href="#modal3" class="open_modal_3">
+							<canvas id="canvas_3" class="canvas_blog" height="200" width="200">
+							</canvas>
+							</a>
+							<article id="modal3" class="modal_div blog_article-third"  style="opacity: 0; display: none;">
+									<span class="modal_close">x</span>
+									<h2>“СЛУХАТИ І ЧУТИ”</h2>
+									<p id="blog_date" class="blog_date">25.07.2017</p>
+									<p class="blog_text">
+									“Живемо в насичений час. 
+									Сьогодення просто переповнене гіперактивним 
+									спілкуванням. 
+									Брифінги, конференції, круглі столи, семінари, 
+									симпозіуми, дискусійні клуби, всенародні обговорення, 
+									тематичні групи, робочі групи, ток-шоу, інтерв’ю, дописи,
+									трансляції…
+									</p>
+									<a href="#" class="blog_btn-read">Читати</a>
+								</article>
+							<a href="#modal4" class="open_modal_4">
+							<canvas id="canvas_4" class="canvas_blog" height="200" width="200">
+							</canvas>
+							</a>
+							<article id="modal4" class="modal_div blog_article-fourth"  style="opacity: 0; display: none;">
+									<span class="modal_close">x</span>
+									<h2>“СЛУХАТИ І ЧУТИ”</h2>
+									<p id="blog_date" class="blog_date">25.07.2017</p>
+									<p class="blog_text">
+									“Живемо в насичений час. 
+									Сьогодення просто переповнене гіперактивним 
+									спілкуванням. 
+									Брифінги, конференції, круглі столи, семінари, 
+									симпозіуми, дискусійні клуби, всенародні обговорення, 
+									тематичні групи, робочі групи, ток-шоу, інтерв’ю, дописи,
+									трансляції…
+									</p>
+									<a href="#" class="blog_btn-read">Читати</a>
+							</article>
+					  </div>
+				    </div>
+				    <div class="carousel-item">
+				     	<div class="wrap_blog">
+			    			<canvas id="canvas_1" class="canvas_blog" height="200" width="200">
+							</canvas>
+							<canvas id="canvas_2" class="canvas_blog" height="200" width="200">
+							</canvas>
+							<canvas id="canvas_3" class="canvas_blog" height="200" width="200">
+							</canvas>
+							<canvas id="canvas_4" class="canvas_blog" height="200" width="200">
+							</canvas>
+					  </div>
+				    </div>
+				    <div class="carousel-item">
+				    	<div class="wrap_blog">
+			    			<canvas id="canvas_1" class="canvas_blog" height="200" width="200">
+							</canvas>
+							<canvas id="canvas_2" class="canvas_blog" height="200" width="200">
+							</canvas>
+							<canvas id="canvas_3" class="canvas_blog" height="200" width="200">
+							</canvas>
+							<canvas id="canvas_4" class="canvas_blog" height="200" width="200">
+							</canvas>
+					  </div>
+				     <!--  <img class="d-block img-fluid" src="..." alt="Third slide"> -->
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+			</div>
+			<div id="overlay" style="display: none;"></div>
+		</div>
+		<div class="wrap_contacts">
+			<div class="fb">
+				<a href="https://www.facebook.com/futuresshody">facebook.com/futuresshody</a>
+			</div>
+			<div class="mail">
+				<a href="mailto:news@futuresshody.com.ua">news@futuresshody.com.ua</a>
+			</div>
+			<div class="phone">
+				<a href="tel:+380503604867">050 360 48 67</a>
+			</div>
+		</div>
+  <footer class="footer">
+  	<p>&copy; 2017, «Сходи в майбутнє». Всі права захищені</p>
+  	<p>Використання будь-яких матеріалів, які знаходяться на сайті, дозволяється за умови розміщення гіперпосилання</p>
+  </footer>
+   <script src="js/canvas_blog.js">
+   </script>
+   <script src="js/jquery-blog.js">
+   </script>
+</body>
+</html>
