@@ -25,6 +25,11 @@ $(document).ready(function() {
                  }
              );
      });
+     $('#show_1').click(function() {
+    $('#second-post').css('display', 'none');
+  $('div#first-post').css('display', 'block');
+  modal.css('display','none');
+});
 });
 
 
@@ -55,6 +60,11 @@ $(document).ready(function() {
                  }
              );
      });
+     $('#show_2').click(function() {
+    $('#first-post').css('display','none');
+  $('#second-post').css('display', 'block');
+  modal.css('display', 'none');
+});
 });
 
 
@@ -110,7 +120,7 @@ $(document).ready(function() {
          });
      });
 
-     close.click( function(){ 
+    close.click( function(){ 
             modal
              .animate({opacity: 0, top: '45%'}, 200, 
                  function(){ 

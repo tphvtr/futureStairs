@@ -74,7 +74,7 @@
 									тематичні групи, робочі групи, ток-шоу, інтерв’ю, дописи,
 									трансляції…
 									</p>
-									<a href="#" class="blog_btn-read">Читати</a>
+									<a id="show_1" style="color: #fff" class="blog_btn-read">Читати</a>
 								</article>
 							<a href="#modal2" class="open_modal_2">
 								<canvas id="canvas_2" class="canvas_blog canvas_second" height="200" width="200">
@@ -93,7 +93,7 @@
 									тематичні групи, робочі групи, ток-шоу, інтерв’ю, дописи,
 									трансляції…
 									</p>
-									<a href="#" class="blog_btn-read">Читати</a>
+									<a id="show_2" style="color: #fff" class="blog_btn-read">Читати</a>
 							</article>
 							<a href="#modal3" class="open_modal_3">
 							<canvas id="canvas_3" class="canvas_blog canvas_third" height="200" width="200">
@@ -112,7 +112,7 @@
 									тематичні групи, робочі групи, ток-шоу, інтерв’ю, дописи,
 									трансляції…
 									</p>
-									<a href="#" class="blog_btn-read">Читати</a>
+									<a id="show_3" style="color: #fff" class="blog_btn-read">Читати</a>
 								</article>
 							<a href="#modal4" class="open_modal_4">
 							<canvas id="canvas_4" class="canvas_blog canvas_fourth" height="200" width="200">
@@ -131,7 +131,7 @@
 									тематичні групи, робочі групи, ток-шоу, інтерв’ю, дописи,
 									трансляції…
 									</p>
-									<a href="#" class="blog_btn-read">Читати</a>
+									<a id="show_4" class="blog_btn-read" style="color: #fff">Читати</a>
 							</article>
 					  </div>
 				    </div>
@@ -160,6 +160,7 @@
 					  </div>
 				     <!--  <img class="d-block img-fluid" src="..." alt="Third slide"> -->
 				    </div>
+				    <div id="overlay" style="display: none;"></div>
 				  </div>
 				  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -170,7 +171,7 @@
 				    <span class="sr-only">Next</span>
 				  </a>
 			</div>
-			<div class="wrap_post">
+			<div class="wrap_post green_grad" id="first-post">
 				<div class="post_block">
 					<canvas width="200" height="200" id="post_trainer-first" class="post_trainer-first"></canvas>
 					<article class="article_post">
@@ -182,11 +183,11 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, dignissimos necessitatibus quibusdam et repellat, voluptatum deleniti quo deserunt alias, nobis eius at ratione ad doloremque perspiciatis, sapiente! Doloremque totam qui architecto quidem, excepturi earum repellendus cumque reiciendis omnis officiis in ea, asperiores nihil ipsum numquam voluptate. Eius quia temporibus impedit consequuntur iusto totam voluptatum assumenda, veniam ut ex fuga incidunt.</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi veniam magni dignissimos. Optio, nulla, officia.</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, sequi!</p>
-							<a href="#" class="btn-post">Далі</a>
+							<a href="#" class="btn-post green_btn green">Далі</a>
 						</div>
 					</article>
 				</div>
-				<div class="comment_wrap">
+				<div class="comment_wrap green">
 					<a href="#" class="btn-add_comment">Додати коментар</a>
 				</div>
 				<div class="comment_block-wrap">
@@ -206,7 +207,77 @@
 							</div>
 					</article>
 				</div>
-				<div id="overlay" style="display: none;"></div>
+				<div class="comment_block-wrap">
+					<article class="comment-block comment-block_blue">
+						<canvas width="100" height="100" class="canvas_comment-second" id="canvas_comment-second"></canvas>
+							<div class="text_wrap">
+								<div class="flex-wrap-text" style="border-color: #0d96b4;">
+									<p class="comment-heading">
+										Валентин
+									</p>
+									<span class="comment-date">Вчора, 21:55</span>
+								</div>
+								<p class="comment-text">
+									Не зміг не позволити собі проаналізувати розклад і зробити ряд висновків 
+									та низку пропозицій.
+								</p>
+							</div>
+					</article>
+				</div>
+			</div>
+			<div class="wrap_post" id="second-post">
+				<div class="post_block second-post">
+					<canvas width="200" height="200" id="post_trainer-second" class="post_trainer-second"></canvas>
+					<article class="article_post">
+						<h2>&laquo;Слухати і чути&raquo;</h2>
+						<p id="blog_date" class="blog_date-post">25.07.2017</p>
+						<div class="post_text">
+							<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, pariatur dolore ratione doloremque fugit temporibus, alias porro voluptas, voluptatibus quos quibusdam assumenda ipsum consequatur. Esse, maxime, hic. Excepturi eum temporibus, quos nesciunt natus! Tenetur maiores doloremque, numquam porro nemo mollitia!</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia dolore ex dolorum vero porro, deleniti molestiae dolores blanditiis saepe esse dignissimos corrupti, nostrum perferendis.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, dignissimos necessitatibus quibusdam et repellat, voluptatum deleniti quo deserunt alias, nobis eius at ratione ad doloremque perspiciatis, sapiente! Doloremque totam qui architecto quidem, excepturi earum repellendus cumque reiciendis omnis officiis in ea, asperiores nihil ipsum numquam voluptate. Eius quia temporibus impedit consequuntur iusto totam voluptatum assumenda, veniam ut ex fuga incidunt.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi veniam magni dignissimos. Optio, nulla, officia.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, sequi!</p>
+							<a href="#" class="btn-post">Далі</a>
+						</div>
+					</article>
+				</div>
+				<div class="comment_wrap">
+					<a href="#" class="btn-add_comment">Додати коментар</a>
+				</div>
+				<div class="comment_block-wrap">
+					<article class="comment-block comment-block_blue">
+						<canvas width="100" height="100" class="canvas_comment-second" id="canvas_comment-second"></canvas>
+							<div class="text_wrap">
+								<div class="flex-wrap-text" style="border-color: #0d96b4;">
+									<p class="comment-heading">
+										Валентин
+									</p>
+									<span class="comment-date">Вчора, 21:55</span>
+								</div>
+								<p class="comment-text">
+									Не зміг не позволити собі проаналізувати розклад і зробити ряд висновків 
+									та низку пропозицій.
+								</p>
+							</div>
+					</article>
+				</div>
+				<div class="comment_block-wrap">
+					<article class="comment-block">
+						<canvas width="100" height="100" class="canvas_comment-first" id="canvas_comment-first"></canvas>
+							<div class="text_wrap">
+								<div class="flex-wrap-text">
+									<p class="comment-heading">
+										Валентин
+									</p>
+									<span class="comment-date">Вчора, 21:55</span>
+								</div>
+								<p class="comment-text">
+									Не зміг не позволити собі проаналізувати розклад і зробити ряд висновків 
+									та низку пропозицій.
+								</p>
+							</div>
+					</article>
+				</div>
 			</div>
 		</div>
 		<div class="wrap_contacts">
@@ -220,6 +291,7 @@
 				<a href="tel:+380503604867">050 360 48 67</a>
 			</div>
 		</div>
+
   <footer class="footer">
   	<p>&copy; 2017, «Сходи в майбутнє». Всі права захищені</p>
   	<p>Використання будь-яких матеріалів, які знаходяться на сайті, дозволяється за умови розміщення гіперпосилання</p>

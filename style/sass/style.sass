@@ -24,8 +24,6 @@ header
 	// align-content: center
 img
 	width: 100%
-a:hover
-	text-decoration: none
 .wrapper
 	min-height: 100%
 	margin-bottom: -150px
@@ -53,6 +51,9 @@ nav
 	li:hover
 		cursor: pointer
 		border-color: red
+	li:hover a
+		text-decoration: none
+		color: #000
 .header_menu
 		list-style-type: none
 		display: flex
@@ -682,7 +683,8 @@ marquee:before
 .paralaxM_wrap
 	padding-bottom: 64px
 .canvas_1, .canvas_2, .canvas_3, .canvas_4, .canvas_news, .canvas_blog,
-.post_trainer-first, .canvas_comment-first
+.post_trainer-first, .canvas_comment-first, .canvas_comment-second, 
+.post_trainer-second
 	border-radius: 50%
 	background-size: cover
 	background-position: center
@@ -846,6 +848,8 @@ marquee:before
 		width: 66%
 		display: block
 		padding: 8px 0
+		a
+			color: #fff
 	.blog_btn-read:hover
 		cursor: pointer
 		transform: scale(1.02)
@@ -891,11 +895,11 @@ marquee:before
 	height: 300px
 #overlay 
 	position: fixed 
-	z-index: 1
+	z-index: 6
 	background-color: transparent
 	opacity: 0.8
 	width: 100%
-	height: 100% 
+	height: 50% 
 	top: 0
 	left: 0
 	cursor: pointer
@@ -928,6 +932,8 @@ marquee:before
 	background-color: #fff
 	background: linear-gradient(to bottom, #0d96b4, #fff)
 	margin-bottom: -32px
+	display: none
+	opacity: 1
 .post_block
 	padding: 32px 0 64px
 .article_post
@@ -938,17 +944,15 @@ marquee:before
 		font-size: 24px
 		font-weight: bold
 		text-align: left
-		text-indent: 28px
 .blog_date-post
 	color: #fff
 	font-size: 24px
 	font-weight: bold
 	text-align: center
 	text-align: left
-	text-indent: 28px
 .post_text
 	background-color: #fff
-	width: 70%
+	width: 69%
 	float: right
 	padding-left: 32px
 	padding-top: 16px
@@ -961,7 +965,7 @@ marquee:before
 	clear: both
 .post_trainer-first
 	float: left
-	margin-left: 264px
+	margin-left: 184px
 .comment_wrap
 	background-color: #0d96b4
 	padding: 16px 0
@@ -1006,6 +1010,8 @@ marquee:before
 	width: 81%
 	float: right
 	background-color: rgba(82, 167, 71, .52)
+.comment-block_blue
+	background-color: rgba(13, 150, 180, 0.52)
 .flex-wrap-text
 	display: flex
 	border-bottom: 2px solid $green	
@@ -1018,6 +1024,12 @@ marquee:before
 	position: relative
 	left: -50px
 	margin: 0
+.canvas_comment-second
+	@extend .canvas_comment-first
+	background-image: url(../../images/trainer_2.png)
+.post_trainer-second
+	@extend .post_trainer-first
+	background-image: url(../../images/trainer_2.png)
 .comment-text
 	float: left
 	font-size: 12px
@@ -1032,6 +1044,14 @@ marquee:before
 	content: ''
 	display: block
 	clear: both
+.main_show
+	display: block
+.green
+	background-color: $green
+.green_btn:hover
+	background-color: #46823e
+.green_grad 
+	background: linear-gradient(to bottom, $green, #fff)
 @media (min-width: 640px)
 	.news_svg
 		opacity: 1
