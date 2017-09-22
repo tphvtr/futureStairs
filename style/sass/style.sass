@@ -684,7 +684,8 @@ marquee:before
 	padding-bottom: 64px
 .canvas_1, .canvas_2, .canvas_3, .canvas_4, .canvas_news, .canvas_blog,
 .post_trainer-first, .canvas_comment-first, .canvas_comment-second, 
-.post_trainer-second
+.post_trainer-second, .post_trainer-third, .post_trainer-fourth,
+.canvas_comment-third, .canvas_comment-fourth
 	border-radius: 50%
 	background-size: cover
 	background-position: center
@@ -899,7 +900,7 @@ marquee:before
 	background-color: transparent
 	opacity: 0.8
 	width: 100%
-	height: 50% 
+	height: 45% 
 	top: 0
 	left: 0
 	cursor: pointer
@@ -934,6 +935,7 @@ marquee:before
 	margin-bottom: -32px
 	display: none
 	opacity: 1
+	z-index: 8
 .post_block
 	padding: 32px 0 64px
 .article_post
@@ -944,12 +946,14 @@ marquee:before
 		font-size: 24px
 		font-weight: bold
 		text-align: left
+		text-indent: 46px
 .blog_date-post
 	color: #fff
 	font-size: 24px
 	font-weight: bold
 	text-align: center
 	text-align: left
+	text-indent: 46px
 .post_text
 	background-color: #fff
 	width: 69%
@@ -958,7 +962,7 @@ marquee:before
 	padding-top: 16px
 	p
 		width: 66%
-		font-size: 12px
+		font-size: 12pxs
 .post_block::after
 	content: ''
 	display: block
@@ -975,13 +979,14 @@ marquee:before
 	border: 1px solid #fff
 	display: block
 	margin: 0 auto
-	width: 25%
+	width: 250px
 	text-align: center
 	padding: 16px 32px
 	font-size: 18px
 .btn-add_comment:hover
 	border-color: #ccc
 	color: #ccc
+	text-decoration: none
 .btn-post
 	text-transform: uppercase
 	color: #fff
@@ -995,6 +1000,7 @@ marquee:before
 .btn-post:hover
 	color: #fff
 	background-color: #0e6f84
+	text-decoration: none
 .comment-block:after
 	content: ''
 	display: block
@@ -1012,6 +1018,10 @@ marquee:before
 	background-color: rgba(82, 167, 71, .52)
 .comment-block_blue
 	background-color: rgba(13, 150, 180, 0.52)
+.comment-block_orange
+	background-color: rgba(252, 153, 19, 0.52)
+.comment-block_dark-blue
+	background-color: rgba(7, 57, 100, 0.52)
 .flex-wrap-text
 	display: flex
 	border-bottom: 2px solid $green	
@@ -1027,9 +1037,21 @@ marquee:before
 .canvas_comment-second
 	@extend .canvas_comment-first
 	background-image: url(../../images/trainer_2.png)
+.canvas_comment-third
+	@extend .canvas_comment-first
+	background-image: url(../../images/trainer_3.png)
+.canvas_comment-fourth
+	@extend .canvas_comment-first
+	background-image: url(../../images/trainer_4.png)
 .post_trainer-second
 	@extend .post_trainer-first
 	background-image: url(../../images/trainer_2.png)
+.post_trainer-third
+	@extend .post_trainer-first
+	background-image: url(../../images/trainer_3.png)
+.post_trainer-fourth
+	@extend .post_trainer-first
+	background-image: url(../../images/trainer_4.png)
 .comment-text
 	float: left
 	font-size: 12px
@@ -1048,10 +1070,22 @@ marquee:before
 	display: block
 .green
 	background-color: $green
+.dark-blue
+	background-color: #073964
+.orange
+	background-color: #fcb713
 .green_btn:hover
 	background-color: #46823e
+.dark-blue_btn:hover
+	background-color: #073964
+.orange:hover
+	background-color: #fcb713
 .green_grad 
 	background: linear-gradient(to bottom, $green, #fff)
+.dark-blue_grad
+	background: linear-gradient(to bottom, #073964, #fff)
+.orange_grad
+	background: linear-gradient(to bottom, #fcb713, #fff)
 @media (min-width: 640px)
 	.news_svg
 		opacity: 1
