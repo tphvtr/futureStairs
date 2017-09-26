@@ -27,7 +27,7 @@ $(document).ready(function() {
      });
      $('#show_1').click(function() {
     $('#second-post').css('display', 'none');
-  $('div#first-post').css('display', 'block');
+  $('div#first-post').show(300)
   modal.css('display','none');
 });
 });
@@ -62,7 +62,7 @@ $(document).ready(function() {
      });
      $('#show_2').click(function() {
     $('#first-post').css('display','none');
-  $('#second-post').css('display', 'block');
+  $('#second-post').show(300);
   modal.css('display', 'none');
 });
 });
@@ -158,8 +158,8 @@ $(document).ready(function() {
              );
      });
      $('#show_1').click(function() {
-    $('.wrap_post').css('display', 'none');
-  $('div#first-post').css('display', 'block');
+    $('.wrap_post').hide(300);
+  $('div#first-post').show(300);
   modal.css('display','none');
 });
 });
@@ -193,8 +193,8 @@ $(document).ready(function() {
              );
      });
      $('#show_2').click(function() {
-    $('.wrap_post').css('display','none');
-  $('#second-post').css('display', 'block');
+    $('.wrap_post').hide(300);
+  $('#second-post').show(300);
   modal.css('display', 'none');
 });
 });
@@ -231,8 +231,8 @@ $(document).ready(function() {
              );
      });
       $('#show_3').click(function() {
-    $('.wrap_post').css('display','none');
-  $('#third-post').css('display', 'block');
+    $('.wrap_post').hide(300);
+  $('#third-post').show(300);
   modal.css('display', 'none');
 });
 });
@@ -267,8 +267,8 @@ $(document).ready(function() {
              );
      });
      $('#show_4').click(function() {
-    $('.wrap_post').css('display','none');
-  $('#fourth-post').css('display', 'block');
+    $('.wrap_post').hide(300);
+  $('#fourth-post').show(300);
   modal.css('display', 'none');
 });
 });
