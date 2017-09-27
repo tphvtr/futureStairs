@@ -53,6 +53,7 @@ nav
 			color: #5e5f5e
 			text-transform: uppercase
 			padding: 4px 8px
+			font-size: 13px
 	li:before
 		content: ''
 		display: block
@@ -1029,7 +1030,7 @@ marquee:before
 	background-color: transparent
 	opacity: 0.8
 	width: 100%
-	height: 45% 
+	height: 0% 
 	top: 0
 	left: 0
 	cursor: pointer
@@ -1451,6 +1452,7 @@ marquee:before
 		height: 50px
 		justify-content: space-between
 		align-items: center
+		background-color: transparent
 		a
 			width: 125px
 			text-align: center
@@ -1458,13 +1460,22 @@ marquee:before
 		li:before
 			display: none
 	.auth:before
-		background-image: url(../../images/auth_white.png)
+		background-image: url(../../images/auth.png)
 		background-position: center
 		background-repeat: no-repeat
 		background-size: 65%
 		width: 20px
 		height: 20px
 		margin: 4px 0
+	.facebook_nav:before
+		content: 'f'
+		background-color: $green
+		border-radius: 50%
+		background-image: none
+	.mail_nav::before
+		content: ''
+		background-image: url(../../images/mail_top.png)
+		background-color: #fff
 	#nav-icon4
 		width: 85%
 		height: 60px
@@ -1484,11 +1495,11 @@ marquee:before
 			height: 32px
 			display: flex
 			align-items: center
-			border: 1px solid #fff
+			border: 2px solid $green
 		a
-			color: #fff
+			color: #000
 		li:hover a 
-			color: #fff
+			color: #000
 	.projectH_descr
 		position: relative
 		z-index: 5
