@@ -43,6 +43,7 @@ nav
 	background-color: $green
 	position: relative
 	z-index: 2
+	width: 100%
 	li
 		margin: 8px
 		display: flex
@@ -53,7 +54,7 @@ nav
 			color: #5e5f5e
 			text-transform: uppercase
 			padding: 4px 8px
-			font-size: 13px
+			font-size: 10px
 	li:before
 		content: ''
 		display: block
@@ -828,11 +829,12 @@ marquee:before
 	text-transform: uppercase
 	margin: 0
 	position: relative
-	z-index: 5
+	z-index: 1
 	text-align: center
 	max-width: 580px
 	font-weight: lighter
 	letter-spacing: .3px
+	color: #fff
 .plashka_blue
 	background-color: #0d96b4
 	width: 100%
@@ -928,12 +930,12 @@ marquee:before
 .wrap_blog
 	max-width: 960px
 	margin: 0 auto
-	height: 464px
 .carousel-control-next
 	justify-content: flex-end
 	align-items: flex-start
 	margin-top: 104px
-	width: 10%
+	width: 15%
+	height: 30px
 .carousel-control-prev
 	@extend .carousel-control-next
 	justify-content: flex-start
@@ -950,8 +952,7 @@ marquee:before
 	margin-left: 16px
 .blog_article
 	background-color: $green
-	top: 19%
-	left: 12.5%
+	top: 0
 	max-width: 354px
 	padding: 32px 8px 32px
 	position: absolute
@@ -990,11 +991,9 @@ marquee:before
 .blog_article-second
 	@extend .blog_article
 	background-color: #0d96b4
-	left: 37%
 .blog_article-third
 	@extend .blog_article
 	background-color: #fcb713
-	left: 29%
 	h2
 		text-align: left
 	.blog_date
@@ -1004,7 +1003,6 @@ marquee:before
 .blog_article-fourth
 	@extend .blog_article
 	background-color: #073964
-	left: 54%
 	h2
 		text-align: left
 	.blog_date
@@ -1068,6 +1066,7 @@ marquee:before
 	z-index: 8
 .post_block
 	padding: 32px 0 64px
+	overflow: hidden
 .article_post
 	margin: auto
 	h2
@@ -1097,9 +1096,6 @@ marquee:before
 	content: ''
 	display: block
 	clear: both
-.post_trainer-first
-	float: left
-	margin-left: 184px
 .comment_wrap
 	background-color: #0d96b4
 	padding: 16px 0
@@ -1223,7 +1219,13 @@ marquee:before
 	background: linear-gradient(to bottom, #073964, #fff)
 .orange_grad
 	background: linear-gradient(to bottom, #fcb713, #fff)
+.post_trainer-first
+	margin: 32px auto
+	display: block
 @media (min-width: 640px)
+	.News-page_heading
+		color: #000
+		z-index: 2
 	.news_svg
 		opacity: 1
 		transition: all .3s linear
@@ -1267,6 +1269,7 @@ marquee:before
 	.wrap_blog
 		display: flex
 		justify-content: center
+		height: 464px
 @media (min-width: 960px)
 	.wrap_news
 		display: flex
@@ -1444,6 +1447,16 @@ marquee:before
 		flex-direction: row
 	.news_article:nth-child(6) 
 		flex-direction: row-reverse
+	.post_trainer-first
+		margin-left: 184px
+	.blog_article
+		left: 12.5%
+	.blog_article-second
+		left: 37%
+	.blog_article-third
+		left: 29%
+	.blog_article-fourth
+		left: 54%
 @media(min-width: 1280px)
 	#nav-icon4 .wad
 		display: none

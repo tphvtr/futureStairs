@@ -13,7 +13,7 @@ $(document).ready(function() {
                 modal.hide();
                  $(div)
                      .css('display', 'block') 
-                     .animate({opacity: 1, top: '28%'}, 200);
+                     .animate({opacity: 1, top: '18%'}, 200);
          });
      });
 
@@ -51,7 +51,7 @@ $(document).ready(function() {
                 $('.open_modal_3').css("z-index", '1');
                  $(div)
                      .css('display', 'block') 
-                     .animate({opacity: 1, top: '28%'}, 200);
+                     .animate({opacity: 1, top: '18%'}, 200);
          });
      });
 
@@ -89,7 +89,7 @@ $(document).ready(function() {
                 $('.open_modal_2').css("z-index", '1');
                  $(div)
                      .css('display', 'block') 
-                     .animate({opacity: 1, top: '28%'}, 200);
+                     .animate({opacity: 1, top: '18%'}, 200);
          });
      });
 
@@ -129,7 +129,7 @@ $(document).ready(function() {
                 $('.open_modal_3').css("z-index", '1');
                  $(div)
                      .css('display', 'block') 
-                     .animate({opacity: 1, top: '28%'}, 200);
+                     .animate({opacity: 1, top: '18%'}, 200);
          });
      });
 
