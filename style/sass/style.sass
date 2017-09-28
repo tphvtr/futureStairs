@@ -857,7 +857,7 @@ marquee:before
 	top: 32px
 .wrapper_News
 	@extend .wrapper
-	min-height: 88%
+	min-height: 58%
 .wrap_plashka
 	position: relative
 	z-index: 5
@@ -956,6 +956,7 @@ marquee:before
 	max-width: 354px
 	padding: 32px 8px 32px
 	position: absolute
+	top: 28%
 	h2
 		font-size: 24px
 		color: #fff
@@ -1076,6 +1077,8 @@ marquee:before
 		font-weight: bold
 		text-align: left
 		text-indent: 46px
+		float: right
+		padding-right: 16px
 .blog_date-post
 	color: #fff
 	font-size: 24px
@@ -1083,6 +1086,8 @@ marquee:before
 	text-align: center
 	text-align: left
 	text-indent: 46px
+	float: right
+	padding-right: 16px
 .post_text
 	background-color: #fff
 	width: 69%
@@ -1091,7 +1096,7 @@ marquee:before
 	padding-top: 16px
 	p
 		width: 66%
-		font-size: 12pxs
+		font-size: 12px
 .post_block::after
 	content: ''
 	display: block
@@ -1223,6 +1228,18 @@ marquee:before
 	margin: 32px auto
 	display: block
 @media (min-width: 640px)
+	.blog_date-post
+		width: 72%
+	.article_post
+		h2
+			width: 72%
+	.post_trainer-first
+		float: left
+		margin: 32px 0
+		width: 20%
+		display: block
+		position: relative
+		left: 10%
 	.News-page_heading
 		color: #000
 		z-index: 2
@@ -1447,8 +1464,6 @@ marquee:before
 		flex-direction: row
 	.news_article:nth-child(6) 
 		flex-direction: row-reverse
-	.post_trainer-first
-		margin-left: 184px
 	.blog_article
 		left: 12.5%
 	.blog_article-second

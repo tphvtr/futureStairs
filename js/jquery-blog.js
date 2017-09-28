@@ -11,9 +11,12 @@ $(document).ready(function() {
          overlay.fadeIn(400, 
              function(){ 
                 modal.hide();
+                   $('html, body').animate({
+                 scrollTop:
                  $(div)
                      .css('display', 'block') 
-                     .animate({opacity: 1, top: '18%'}, 200);
+                     .animate({opacity: 1, top: '28%'}, 200).offset().top
+    }, 1000);
          });
      });
 
@@ -29,6 +32,9 @@ $(document).ready(function() {
      $('#show_1').click(function() {
     $('.wrap_post').hide(300);
   $('div#first-post').show(300);
+   $('html, body').animate({
+        scrollTop: $("#blog-date").offset().top
+    }, 400);
   modal.css('display','none');
 });
 });
@@ -49,9 +55,12 @@ $(document).ready(function() {
                 open_modal.css("z-index", '3');
                 $('.blog_article-second').css("z-index", '2');
                 $('.open_modal_3').css("z-index", '1');
+                  $('html, body').animate({
+                 scrollTop:
                  $(div)
                      .css('display', 'block') 
-                     .animate({opacity: 1, top: '18%'}, 200);
+                     .animate({opacity: 1, top: '28%'}, 200).offset().top
+    }, 1000);
          });
      });
 
@@ -67,6 +76,9 @@ $(document).ready(function() {
      $('#show_2').click(function() {
     $('.wrap_post').hide(300);
   $('#second-post').show(300);
+   $('html, body').animate({
+        scrollTop: $("#blog-date").offset().top
+    }, 300);
   modal.css('display', 'none');
 });
 });
@@ -87,9 +99,12 @@ $(document).ready(function() {
                 open_modal.css("z-index", '3');
                 $('.blog_article-third').css("z-index", '2');
                 $('.open_modal_2').css("z-index", '1');
+                  $('html, body').animate({
+                 scrollTop:
                  $(div)
                      .css('display', 'block') 
-                     .animate({opacity: 1, top: '18%'}, 200);
+                     .animate({opacity: 1, top: '28%'}, 200).offset().top
+    }, 1000);
          });
      });
 
@@ -107,6 +122,9 @@ $(document).ready(function() {
       $('#show_3').click(function() {
     $('.wrap_post').hide(300);
   $('#third-post').show(300);
+   $('html, body').animate({
+        scrollTop: $("#blog-date").offset().top
+    }, 300);
   modal.css('display', 'none');
 });
 });
@@ -127,9 +145,12 @@ $(document).ready(function() {
                   open_modal.css("z-index", '3');
                 $('.blog_article-fourth').css("z-index", '2');
                 $('.open_modal_3').css("z-index", '1');
+            $('html, body').animate({
+                 scrollTop:
                  $(div)
                      .css('display', 'block') 
-                     .animate({opacity: 1, top: '18%'}, 200);
+                     .animate({opacity: 1, top: '28%'}, 200).offset().top
+    }, 1000);
          });
      });
 
@@ -145,6 +166,9 @@ $(document).ready(function() {
      $('#show_4').click(function() {
     $('.wrap_post').hide(300);
   $('#fourth-post').show(300);
+   $('html, body').animate({
+        scrollTop: $("#blog-date").offset().top
+    }, 300);
   modal.css('display', 'none');
 });
 });
