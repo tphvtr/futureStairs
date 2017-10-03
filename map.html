@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style>
+   @font-face {
+    font-family: Pompadur;
+    src: local(pompadur), url(fonts/CenturyGothic.ttf);
+   }
+   h1 {
+    font-family: Pompadur;
+   }
+  </style>
+	<link rel="shortcut icon" href="images/x-icon.ico" type="images/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="style/css/style.css">
+	<title>| Карта</title>
+</head>
+<body>
+	<div class="wrapper wrapper_News">
+		<header class="header_projectH">
+			<a href="index.html">
+				<span class="logo"></span>
+			</a>
+			<nav>
+				<div id="nav-icon4">
+				  <span class="wad"></span>
+				  <span class="wad"></span>
+				  <span class="wad"></span>
+					<ul class="header_menu">
+						<li><a href="#">Афіша</a></li>
+						<li><a href="#">Наша Історія</a></li>
+						<li><a href="#">Програми розвитку</a></li>
+						<li><a href="news.html">Новини</a></li>
+						<li><a href="blog.html">Блог</a></li>
+						<li class="auth"><a href="#">Авторизуватись</a></li>
+					</ul>
+				</div>
+				<div style="margin: 0 4px">
+					<a class="mail_nav" href="mailto:news@futuresshody.com.ua"></a>
+					<a class="facebook_nav" href="https://www.facebook.com/futuresshody"></a>
+				</div>
+			</nav>
+		</header>
+		<div class="map_main">
+			<svg height="1350" width="1650" class="lutsk-poly">
+				<polygon  id="Lutsk" style="fill:red; stroke:white;stroke-width:1; opacity: .52;" points="636 422 574 436 563 450 576 461 572 519 616 561 607 574 578 581 576 632 604 671 687 755 696 818 707 835 741 834 758 860 777 852 736 885 687 903 682 928 720 942 740 992 798 1003 805 1030 854 1027 842 1034 870 1052 901 1062 901 1075 874 1083 892 1111 911 1138 940 1137 951 1121 968 1163 1013 1177 1047 1153 1065 1150 1084 1149 1109 1163 1120 1200 1136 1191 1159 1167 1171 1163 1169 1123 1136 1106 1136 1096 1151 1096 1165 1079 1144 1062 1167 1055 1187 1064 1203 1056 1208 1009 1229 1022 1229 1022 1235 984 1305 982 1328 972 1359 971 1384 1008 1407 1012 1424 959 1425 939 1462 905 1482 888 1484 842 1482 824 1520 811 1504 754 1471 753 1471 753 1471 731 1491 737 1503 719 1493 675 1413 617 1413 617 1413 564 1382 564 1369 555 1313 591 1309 511 1304 498 1304 498 1333 467 1338 454 1300 443 1300 443 1305 395 1340 350 1352 301 1344 290 1332 290 1307 272 1283 275 1176 258 1110 257 1024 275 965 290 965 290 851 292 826 350 700 475 673 443"></polygon>
+			</svg>
+		</div>
+		<div class="wrap_contacts">
+			<div class="fb" onclick="return location.href = 'https://www.facebook.com/futuresshody'">
+				<a href="https://www.facebook.com/futuresshody">facebook.com/futuresshody</a>
+			</div>
+			<div class="mail" onclick="return location.href = 'mailto:news@futuresshody.com.ua'">
+				<a href="mailto:news@futuresshody.com.ua">news@futuresshody.com.ua</a>
+			</div>
+				<div class="phone" onclick="return location.href = 'tel:+380503604867'">
+					<a href="tel:+380503604867">050 360 48 67</a>
+				</div>
+		</div>
+	</div>
+  <footer class="footer">
+  	<p>&copy; 2017, «Сходи в майбутнє». Всі права захищені</p>
+  	<p>Використання будь-яких матеріалів, які знаходяться на сайті, дозволяється за умови розміщення гіперпосилання</p>
+  </footer>
+   <script src="js/jquery-map.js">
+   </script>
+   <script src="js/jquery-main.js">
+  </script>
+</body>
+</html>

@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"car",
+				"carousel-inner"
+			],
+			[
+				"j",
+				"jquery-main"
+			],
+			[
+				"news",
+				"news_article"
+			],
+			[
+				"ligh",
+				"light-blue"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"articl",
+				"article_post"
+			],
+			[
+				"blog",
+				"blog_article-fourth"
+			],
+			[
+				"ope",
+				"open_modal_4"
+			],
+			[
+				"opn",
+				"open_modal_2"
+			],
+			[
+				"mail",
+				"mail_nav"
+			],
+			[
 				"conte",
 				"content"
 			],
@@ -34,10 +74,6 @@
 			[
 				"dark",
 				"dark-blue"
-			],
-			[
-				"news",
-				"news_text"
 			],
 			[
 				"light",
@@ -124,10 +160,6 @@
 				"float"
 			],
 			[
-				"pad",
-				"padding-left"
-			],
-			[
 				"blo",
 				"block"
 			],
@@ -154,10 +186,6 @@
 			[
 				"block",
 				"block_article-second"
-			],
-			[
-				"blog",
-				"blog_date"
 			],
 			[
 				"modal",
@@ -202,10 +230,6 @@
 			[
 				"tr",
 				"transition"
-			],
-			[
-				"car",
-				"carousel-control-next"
 			],
 			[
 				"grene",
@@ -396,10 +420,6 @@
 				"azarkhina"
 			],
 			[
-				"mail",
-				"mailto"
-			],
-			[
 				"max",
 				"max-width"
 			],
@@ -468,10 +488,6 @@
 				"z-index"
 			],
 			[
-				"ligh",
-				"lighter"
-			],
-			[
 				"wrap",
 				"wrap_projects_main"
 			],
@@ -498,32 +514,25 @@
 			[
 				"heading_l",
 				"heading_logo"
-			],
-			[
-				"bor",
-				"border-top"
-			],
-			[
-				"bore",
-				"border-bottom"
-			],
-			[
-				"max-",
-				"max-width"
-			],
-			[
-				"ce",
-				"center"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "blog.html",
+			"file": "project_freeH.html",
 			"settings":
 			{
-				"buffer_size": 26210,
+				"buffer_size": 5283,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project_HtoH.html",
+			"settings":
+			{
+				"buffer_size": 5186,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -532,7 +541,16 @@
 			"file": "style/sass/style.sass",
 			"settings":
 			{
-				"buffer_size": 30290,
+				"buffer_size": 31449,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/slider.js",
+			"settings":
+			{
+				"buffer_size": 126,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -542,16 +560,6 @@
 			"settings":
 			{
 				"buffer_size": 222,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/jquery-blog.js",
-			"settings":
-			{
-				"buffer_size": 8227,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -593,27 +601,34 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/otets/Desktop/work/futureStairs",
-		"/C/Users/otets/Desktop/work/futureStairs/js",
-		"/C/Users/otets/Desktop/work/futureStairs/style",
-		"/C/Users/otets/Desktop/work/futureStairs/style/css",
-		"/C/Users/otets/Desktop/FrontEnd-I/o.torvald"
+		"/C/Users/otets/Desktop/work/futureStairs"
 	],
 	"file_history":
 	[
+		"/C/Users/otets/Desktop/work/futureStairs/index.html",
+		"/C/Users/otets/Desktop/work/epicentercrm4/src/app/core/dialog.service.ts",
+		"/C/Users/otets/Desktop/work/epicentercrm4/src/app/components/client/client.module.ts",
+		"/C/Users/otets/Desktop/work/epicentercrm4/src/app/components/client/client.component.html",
+		"/C/Users/otets/Desktop/work/epicentercrm4/src/app/components/home/home-page/home-page.component.ts",
+		"/C/Users/otets/Desktop/work/epicentercrm4/src/app/components/home/navbar/login/login.component.ts",
+		"/C/Users/otets/Desktop/work/epicentercrm4/src/app/core/core.module.ts",
+		"/C/Users/otets/Desktop/work/epicentercrm4/src/app/components/home/navbar/navbar.module.ts",
+		"/C/Users/otets/Desktop/work/futureStairs/js/jquery-map.js",
+		"/C/Users/otets/Desktop/work/futureStairs/style/sass/style.sass",
+		"/C/Users/otets/Desktop/work/futureStairs/map.html",
+		"/C/Users/otets/Desktop/work/epicentercrm4/package.json",
+		"/C/Users/otets/Desktop/work/futureStairs/js/jquery-blog.js",
+		"/C/Users/otets/Desktop/work/futureStairs/js/jquery-news.js",
+		"/C/Users/otets/Desktop/work/futureStairs/news.html",
 		"/C/Users/otets/Desktop/work/futureStairs/blog.html",
+		"/C/Users/otets/Desktop/work/futureStairs/js/jquery-main.js",
 		"/C/Users/otets/Desktop/work/futureStairs/project_workS.html",
 		"/C/Users/otets/Desktop/work/futureStairs/project_studentsR.html",
 		"/C/Users/otets/Desktop/work/futureStairs/project_schoolP.html",
 		"/C/Users/otets/Desktop/work/futureStairs/project_PR.html",
 		"/C/Users/otets/Desktop/work/futureStairs/project_HtoH.html",
 		"/C/Users/otets/Desktop/work/futureStairs/project_freeH.html",
-		"/C/Users/otets/Desktop/work/futureStairs/news.html",
-		"/C/Users/otets/Desktop/work/futureStairs/index.html",
-		"/C/Users/otets/Desktop/work/futureStairs/js/jquery-main.js",
-		"/C/Users/otets/Desktop/work/futureStairs/js/jquery-news.js",
 		"/C/Users/otets/Desktop/work/miralan/services.html",
-		"/C/Users/otets/Desktop/work/futureStairs/js/jquery-blog.js",
 		"/C/Users/otets/Desktop/work/futureStairs/js/canvas_blog.js",
 		"/C/Users/otets/Desktop/work/futureStairs/js/canvas.js",
 		"/C/Users/otets/Desktop/work/futureStairs/js/canvas_news.js",
@@ -629,7 +644,6 @@
 		"/C/Users/otets/Desktop/work/mybrovary/node_modules/har-validator/package.json",
 		"/C/Users/otets/Desktop/work/mybrovary/src/js/main.js",
 		"/C/Users/otets/Desktop/work/mybrovary/src/js/partials/app.js",
-		"/C/Users/otets/Desktop/work/futureStairs/style/sass/style.sass",
 		"/C/Users/otets/Desktop/work/futureStairs/index.sublime-project",
 		"/C/Users/otets/Desktop/work/futureStairs/project_freeH.php",
 		"/C/Users/otets/Desktop/work/futureStairs/header.php",
@@ -670,6 +684,55 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"green_block",
+			"header",
+			"freeH_img",
+			"HtoH_img",
+			"blog_block",
+			"blue_block",
+			"projectworkS_descr",
+			"-72px",
+			"projectHtoH_descr",
+			"projectHtoH_block",
+			"project_HtoH_block",
+			"project_HtoH",
+			"HtoH",
+			"schoolP_goal_block",
+			"lectors",
+			"wrap_projects",
+			"carousel",
+			"wrap_projects",
+			"projects",
+			"10px",
+			"slider",
+			"ol",
+			"10px",
+			"overlay",
+			"header_menu",
+			"post_text",
+			"news",
+			"wrap_blog",
+			"nav",
+			"post_text",
+			"post_trainer-first",
+			"article_post",
+			"post_trainer",
+			"18",
+			"blog_article",
+			"open_modal_1",
+			"wrap_blog",
+			"wrapper_News",
+			"18",
+			"wrap_blog",
+			"blog_article-",
+			"wrap_blog",
+			"post_trainer-",
+			"post_block",
+			"nav",
+			"120px",
+			"header_menu",
+			"overlay",
+			"mail_nav",
 			"nav",
 			"header_menu",
 			"auth",
@@ -748,56 +811,7 @@
 			"rotate",
 			"transform",
 			"projects",
-			"heading_projects",
-			"post_block",
-			"blog_block",
-			"wrap_post",
-			"canvas_1",
-			"wrap_post",
-			"canvas_1",
-			"carousel",
-			"modal_div",
-			"canvas",
-			"canvas_blog",
-			"modal",
-			"canvas_blog",
-			"wrap_blog",
-			"open_modal",
-			"canvas",
-			"25px",
-			"margin: 25px",
-			"wrap_blog",
-			"wrap",
-			"overlay",
-			"modal_div",
-			"overlay",
-			"modal_div",
-			"open_modal_1",
-			"modal_div",
-			"open_modal_1",
-			"modal1",
-			"modal_open",
-			"canvas_1",
-			"canvas_blog",
-			"wrap_zahodi",
-			"news_block",
-			"max-width: 978px",
-			"canvas_news_1",
-			"canvas_news",
-			"canvas",
-			"canvas_1",
-			"canvas",
-			"css",
-			"default",
-			"path",
-			"templates",
-			"sourcemaps",
-			"rigger",
-			"custom",
-			"scss",
-			"minify",
-			"min",
-			"browser"
+			"heading_projects"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -815,24 +829,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "blog.html",
-					"semi_transient": true,
+					"file": "project_freeH.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 26210,
+						"buffer_size": 5283,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								717,
+								717
 							]
 						],
 						"settings":
@@ -841,33 +855,62 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 224.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
-					"file": "style/sass/style.sass",
+					"file": "project_HtoH.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 30290,
+						"buffer_size": 5186,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								28799,
-								28799
+								4867,
+								4867
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2516.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "style/sass/style.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9653,
+								9653
 							]
 						],
 						"settings":
@@ -876,14 +919,42 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 25938.0,
+						"translation.y": 8632.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/slider.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "js/jquery-main.js",
 					"semi_transient": false,
 					"settings":
@@ -895,49 +966,20 @@
 						"selection":
 						[
 							[
-								98,
-								98
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "js/jquery-blog.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8227,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4928,
-								4928
+								190,
+								211
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 365.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1031,7 +1073,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 188.0,
+	"side_bar_width": 392.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -302,7 +302,7 @@ marquee:before {
   font-size: 32px; }
 
 .carousel-indicators {
-  bottom: 50px; }
+  bottom: -10px; }
   .carousel-indicators li {
     width: 15px;
     height: 15px;
@@ -539,13 +539,13 @@ marquee:before {
   background-image: url(../../images/mail.png); }
 
 .freeH_img, .HtoH_img, .workS_img, .schoolP_img, .studentsR_img, .PR_img, .News_img, .Blog_img {
-  background-image: url(../../images/freeH_Big.jpg);
+  background-image: url(../../images/FreeH_img.png);
   background-size: cover;
   height: 370px; }
 
 .green_block, .news_block, .blog_block, .blue_block, .workS_blue_block, .orange_block, .studentsR_blue_block {
   background-color: rgba(82, 167, 71, 0.52);
-  height: 380px;
+  height: 370px;
   position: relative; }
 
 .news_block, .blog_block {
@@ -569,8 +569,7 @@ marquee:before {
   background-color: rgba(13, 150, 180, 0.52); }
 
 .HtoH_img {
-  background-image: url(../../images/Human_helps.png);
-  background-repeat: no-repeat; }
+  background-image: url(../../images/Human_img.png); }
 
 .workS_img {
   background-image: url(../../images/work_search_Main.png);
@@ -677,6 +676,7 @@ marquee:before {
 .projectH_descr, .projectHtoH_descr, .projectworkS_descr, .projectschoolP_descr, .projectstudentsR_descr, .projectPR_descr {
   background-color: #e3f1b8;
   position: relative;
+  width: 100%;
   height: 516px; }
   .projectH_descr h2, .projectHtoH_descr h2, .projectworkS_descr h2, .projectschoolP_descr h2, .projectstudentsR_descr h2, .projectPR_descr h2 {
     text-align: center;
@@ -701,7 +701,6 @@ marquee:before {
 .projectH_descr::before, .projectH_descr::after, .projectHtoH_descr::after, .projectworkS_descr::after, .projectschoolP_descr::after, .projectstudentsR_descr::after, .projectPR_descr::after, .projectHtoH_descr::before, .projectworkS_descr::before, .projectschoolP_descr::before, .projectstudentsR_descr::before, .projectPR_descr::before {
   display: block;
   content: "";
-  background-image: url(../../images/top_freeH.png);
   background-size: 100%;
   background-repeat: no-repeat;
   max-width: 960px;
@@ -715,17 +714,12 @@ marquee:before {
   z-index: 1; }
 
 .projectH_descr::after, .projectHtoH_descr::after, .projectworkS_descr::after, .projectschoolP_descr::after, .projectstudentsR_descr::after, .projectPR_descr::after {
-  background-image: url(../../images/bottom_freeH.png);
   margin-bottom: 0; }
 
 .projectHtoH_descr {
   background-color: #d1f5f5; }
 
-.projectHtoH_descr::before {
-  background-image: url(../../images/HtoH_meta.png); }
-
 .projectHtoH_descr::after {
-  background-image: url(../../images/HtoH_meta_bot.png);
   padding-bottom: 32px; }
 
 .projectworkS_descr, .projectschoolP_descr {
@@ -737,15 +731,12 @@ marquee:before {
     bottom: -128px; }
 
 .projectworkS_descr::before, .projectschoolP_descr::before {
-  background-image: url(../../images/workS_plashka_top.png);
   background-size: 80%;
   padding-top: 56px; }
 
 .projectworkS_descr::after, .projectschoolP_descr::after {
-  background-image: url(../../images/workS_plashka_bot.png);
   background-size: 80%;
   padding-bottom: 16px;
-  padding-top: -72px;
   height: 80px; }
 
 .projectschoolP_descr {
@@ -753,12 +744,6 @@ marquee:before {
 
 .projectstudentsR_descr {
   background-color: #d1f3f5; }
-
-.projectstudentsR_descr::before {
-  background-image: url(../../images/studentsR_top.png); }
-
-.projectstudentsR_descr::after {
-  background-image: url(../../images/studentsR_bot.png); }
 
 .btn_new {
   text-transform: uppercase;
@@ -1386,6 +1371,21 @@ marquee:before {
   margin: 32px auto;
   display: block; }
 
+.map_main {
+  background-image: url(../../images/main_map.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 850px;
+  width: 1240px;
+  margin: 164px auto 0;
+  position: relative; }
+
+.lutsk-poly {
+  position: absolute;
+  left: -674px;
+  top: -552px;
+  transform: scale(0.18); }
+
 @media (min-width: 640px) {
   .blog_date-post {
     width: 72%; }
@@ -1553,8 +1553,10 @@ marquee:before {
     .wrap_projects article::before {
       top: 305px; }
     .wrap_projects article {
-      max-width: 450px;
-      height: 550px; }
+      width: calc(33% - 64px);
+      float: left;
+      height: 550px;
+      margin: 32px; }
       .wrap_projects article h5 {
         height: 84px;
         max-width: 320px;
@@ -1574,7 +1576,10 @@ marquee:before {
     clear: both; }
 
   .lectors {
-    max-width: 320px; }
+    max-width: 320px;
+    width: calc(33% - 64px);
+    margin: 0 32px;
+    float: left; }
 
   .lectors_name {
     height: 50px; }
@@ -1677,6 +1682,9 @@ marquee:before {
   .blog_article-fourth {
     left: 54%; } }
 @media(min-width: 1280px) {
+  .carousel-indicators {
+    display: none; }
+
   #nav-icon4 .wad {
     display: none; }
 

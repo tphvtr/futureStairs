@@ -271,7 +271,7 @@ marquee:before
 	transform: rotate(1deg)
 	font-size: 32px
 .carousel-indicators
-	bottom: 50px
+	bottom: -10px
 	li
 		width: 15px
 		height: 15px
@@ -484,12 +484,12 @@ marquee:before
 	content: ''
 	background-image: url(../../images/mail.png)
 .freeH_img
-	background-image: url(../../images/freeH_Big.jpg)
+	background-image: url(../../images/FreeH_img.png)
 	background-size: cover
 	height: 370px
 .green_block
 	background-color: rgba(82, 167, 71, 0.52)
-	height: 380px
+	height: 370px
 	position: relative
 .news_block
 	@extend .green_block
@@ -513,8 +513,8 @@ marquee:before
 	background-color: rgba(13, 150, 180, .52)
 .HtoH_img
 	@extend .freeH_img
-	background-image: url(../../images/Human_helps.png)
-	background-repeat: no-repeat
+	background-image: url(../../images/Human_img.png)
+	// background-repeat: no-repeat
 .workS_img
 	@extend .freeH_img
 	background-image: url(../../images/work_search_Main.png)
@@ -613,6 +613,7 @@ marquee:before
 .projectH_descr
 	background-color: #e3f1b8
 	position: relative
+	width: 100%
 	height: 516px
 	h2
 		text-align: center
@@ -637,7 +638,7 @@ marquee:before
 .projectH_descr::before
 	display: block
 	content: ''
-	background-image: url(../../images/top_freeH.png)
+	// background-image: url(../../images/top_freeH.png)
 	background-size: 100%
 	background-repeat: no-repeat
 	max-width: 960px
@@ -651,15 +652,15 @@ marquee:before
 	z-index: 1
 .projectH_descr::after
 	@extend .projectH_descr::before
-	background-image: url(../../images/bottom_freeH.png)
+	// background-image: url(../../images/bottom_freeH.png)
 	margin-bottom: 0
 .projectHtoH_descr
 	@extend .projectH_descr
 	background-color: rgb(209, 245, 245)
 .projectHtoH_descr::before
-	background-image: url(../../images/HtoH_meta.png)
+	// background-image: url(../../images/HtoH_meta.png)
 .projectHtoH_descr::after
-	background-image: url(../../images/HtoH_meta_bot.png)
+	// background-image: url(../../images/HtoH_meta_bot.png)
 	padding-bottom: 32px
 .projectworkS_descr
 	@extend .projectH_descr
@@ -670,14 +671,14 @@ marquee:before
 	p
 		bottom: -128px
 .projectworkS_descr::before
-	background-image: url(../../images/workS_plashka_top.png)
+	// background-image: url(../../images/workS_plashka_top.png)
 	background-size: 80%
 	padding-top: 56px
 .projectworkS_descr::after
-	background-image: url(../../images/workS_plashka_bot.png)
+	// background-image: url(../../images/workS_plashka_bot.png)
 	background-size: 80%
 	padding-bottom: 16px
-	padding-top: -72px
+	// padding-top: -72px
 	height: 80px
 .projectschoolP_descr
 	@extend .projectworkS_descr
@@ -686,9 +687,9 @@ marquee:before
 	@extend .projectH_descr
 	background-color: rgb(209, 243, 245)
 .projectstudentsR_descr::before
-	background-image: url(../../images/studentsR_top.png)
+	// background-image: url(../../images/studentsR_top.png)
 .projectstudentsR_descr::after
-	background-image: url(../../images/studentsR_bot.png)
+	// background-image: url(../../images/studentsR_bot.png)
 .projectPR_descr
 	@extend .projectH_descr
 .btn_new
@@ -1227,6 +1228,19 @@ marquee:before
 .post_trainer-first
 	margin: 32px auto
 	display: block
+.map_main
+	background-image: url(../../images/main_map.png)
+	background-size: 100%
+	background-repeat: no-repeat
+	height: 850px
+	width: 1240px
+	margin: 164px auto 0
+	position: relative
+.lutsk-poly
+	position: absolute
+	left: -674px
+	top: -552px
+	transform: scale(0.18)
 @media (min-width: 640px)
 	.blog_date-post
 		width: 72%
@@ -1372,8 +1386,10 @@ marquee:before
 		article::before
 			top: 305px
 		article
-			max-width: 450px
+			width: calc(33% - 64px)
+			float: left
 			height: 550px
+			margin: 32px
 			h5
 				height: 84px
 				max-width: 320px
@@ -1390,6 +1406,9 @@ marquee:before
 		clear: both
 	.lectors
 		max-width: 320px
+		width: calc(33% - 64px)
+		margin: 0 32px
+		float: left 
 	.lectors_name
 		height: 50px
 	.wrap_contacts
@@ -1473,6 +1492,8 @@ marquee:before
 	.blog_article-fourth
 		left: 54%
 @media(min-width: 1280px)
+	.carousel-indicators
+		display: none
 	#nav-icon4 .wad
 		display: none
 	nav
