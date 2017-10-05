@@ -172,3 +172,10 @@ $(document).ready(function() {
   modal.css('display', 'none');
 });
 });
+
+$(document).ready(function() {
+    $('.canvas_blog').click(function(){
+         $('.wrap_blog').css('height', '564px')
+    });
+
+});
